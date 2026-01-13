@@ -1,0 +1,27 @@
+{
+  "name": "@falsejs/random-boolean",
+  "version": "1.0.0",
+  "description": "get a random boolean",
+  "keywords": [
+    "random"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/random-boolean#readme",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/random-boolean/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/random-boolean.git"
+  },
+  "license": "MIT",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash.sample": "^4.2.1",
+    "lolite": "^1.1.5"
+  }
+}

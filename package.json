@@ -1,6 +1,6 @@
 {
   "name": "@falsejs/random-boolean",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get a random boolean",
   "keywords": [
     "random"
@@ -21,7 +21,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@f/identity": "^1.1.1",
+    "array-map": "^0.0.1",
+    "basic-functions": "^1.0.6",
+    "false-value": "^2.0.6",
     "lodash.sample": "^4.2.1",
-    "lolite": "^1.1.5"
+    "true-value": "^2.0.5"
   }
 }

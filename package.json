@@ -1,6 +1,6 @@
 {
   "name": "@falsejs/random-boolean",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "get a random boolean",
   "keywords": [
     "random"
@@ -21,11 +21,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@f/identity": "^1.1.1",
+    "@falsejs/is-true-helper": "^1.1.0",
     "array-map": "^0.0.1",
-    "basic-functions": "^1.0.6",
-    "false-value": "^2.0.6",
-    "lodash.sample": "^4.2.1",
-    "true-value": "^2.0.5"
+    "as-array": "^2.0.0",
+    "construct-new": "^2.0.4",
+    "important-extremely-useful-classes": "^3.1.0",
+    "is-false": "^0.1.1",
+    "lolite.__private.arrayofallbooleans": "^1.1.15",
+    "lolite.__private.crash": "^1.1.15",
+    "lolite.constant": "^1.1.15",
+    "lolite.sample": "^1.1.15",
+    "string-string": "^1.0.0"
   }
 }

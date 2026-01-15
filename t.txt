@@ -1,0 +1,2404 @@
+@falsejs/random-boolean@1.0.2 E:\~windowsmacbook\TP\intrinsicjs\random-boolean
+├─┬ @falsejs/is-true-helper@1.1.0
+│ └─┬ @is-(unknown)/is-true@1.5.0
+│   └── true-value@2.0.5 deduped
+├── array-map@0.0.1
+├── as-array@2.0.0
+├─┬ construct-new@2.0.4
+│ ├─┬ @_immo/return@1.1.1
+│ │ ├── @_immo/return@1.1.1 deduped
+│ │ ├── false@0.0.4
+│ │ ├─┬ is-even@1.0.0
+│ │ │ └─┬ is-odd@0.1.2
+│ │ │   └─┬ is-number@3.0.0
+│ │ │     └─┬ kind-of@3.2.2
+│ │ │       └── is-buffer@1.1.6
+│ │ ├── is-number@7.0.0
+│ │ ├─┬ is-odd@3.0.1
+│ │ │ └── is-number@6.0.0
+│ │ └── true@0.0.4
+│ ├─┬ get-intrinsic@1.3.1
+│ │ ├── async-function@1.0.0
+│ │ ├── async-generator-function@1.0.0
+│ │ ├─┬ call-bind-apply-helpers@1.0.2
+│ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ └── function-bind@1.1.2 deduped
+│ │ ├── es-define-property@1.0.1
+│ │ ├── es-errors@1.3.0
+│ │ ├─┬ es-object-atoms@1.1.1
+│ │ │ └── es-errors@1.3.0 deduped
+│ │ ├── function-bind@1.1.2
+│ │ ├── generator-function@2.0.1
+│ │ ├─┬ get-proto@1.0.1
+│ │ │ ├─┬ dunder-proto@1.0.1
+│ │ │ │ ├── call-bind-apply-helpers@1.0.2 deduped
+│ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ └── gopd@1.2.0 deduped
+│ │ │ └── es-object-atoms@1.1.1 deduped
+│ │ ├── gopd@1.2.0
+│ │ ├── has-symbols@1.1.0
+│ │ ├─┬ hasown@2.0.2
+│ │ │ └── function-bind@1.1.2 deduped
+│ │ └── math-intrinsics@1.1.0
+│ ├─┬ immediate-error@6.4.0
+│ │ ├─┬ @positive-numbers/five@3.0.0
+│ │ │ └─┬ integer-value-positive-five@1.0.0
+│ │ │   └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/four@3.0.0
+│ │ │ └─┬ integer-value-positive-four@1.0.0
+│ │ │   ├── integer-value-positive-three@1.0.0 deduped
+│ │ │   ├── lodash.constant@3.0.0 deduped
+│ │ │   ├─┬ successor@1.0.1
+│ │ │   │ ├── is-negative@2.1.0
+│ │ │   │ ├── is-number@7.0.0 deduped
+│ │ │   │ └── true@0.0.4 deduped
+│ │ │   └── yanoop@1.0.0 deduped
+│ │ ├─┬ @positive-numbers/one@3.0.0
+│ │ │ └─┬ integer-value-positive-one@1.0.2
+│ │ │   └── the-number-one@1.0.1 deduped
+│ │ ├─┬ @positive-numbers/seven@3.0.0
+│ │ │ └─┬ integer-value-positive-seven@1.0.1
+│ │ │   └── se7en@1.0.0
+│ │ ├─┬ @positive-numbers/six@3.0.0
+│ │ │ └─┬ integer-value-positive-six@1.0.1
+│ │ │   ├── const@1.0.0 deduped
+│ │ │   └─┬ number-six@1.0.1
+│ │ │     ├── sixteen-constant@1.0.0 deduped
+│ │ │     └─┬ stevelib@1.0.0
+│ │ │       └── libperson@1.0.0 deduped
+│ │ ├─┬ @positive-numbers/three@3.0.0
+│ │ │ └─┬ integer-value-positive-three@1.0.0
+│ │ │   ├── add-two-numbers2@1.0.0 deduped
+│ │ │   ├── five@0.8.0 deduped
+│ │ │   ├── jquery-basic-arithmetic-plugin@1.1.0
+│ │ │   └─┬ make-jquery-global@1.0.1
+│ │ │     └── jquery@3.7.1 deduped
+│ │ ├─┬ @positive-numbers/two@3.0.0
+│ │ │ └─┬ integer-value-positive-two@1.0.0
+│ │ │   └─┬ es-two@1.0.0
+│ │ │     ├── literally@1.0.0 deduped
+│ │ │     └─┬ two-shim@1.0.0
+│ │ │       └── two@1.0.7 deduped
+│ │ ├─┬ @positive-numbers/zero@3.0.0
+│ │ │ └── number-zero@1.0.3 deduped
+│ │ ├─┬ assert-fn@1.0.1
+│ │ │ ├── none@1.0.0
+│ │ │ └── vanilla-javascript@1.1.6
+│ │ ├─┬ attempt-statement@1.2.1
+│ │ │ └── true-value@2.0.5 deduped
+│ │ ├── construct-new@2.0.4 deduped
+│ │ ├── es-errors@1.3.0 deduped
+│ │ ├── es-object-atoms@1.1.1 deduped
+│ │ ├── get-intrinsic@1.3.1 deduped
+│ │ ├── number-zero@1.0.3
+│ │ ├─┬ switch-in-fp@3.0.0
+│ │ │ ├── false@0.0.4 deduped
+│ │ │ ├── if@2.0.0
+│ │ │ ├── lodash.isequal@4.5.0
+│ │ │ └── true@0.0.4 deduped
+│ │ └── yanoop@1.0.0 deduped
+│ ├─┬ is-arguments@1.2.0
+│ │ ├─┬ call-bound@1.0.4
+│ │ │ ├── call-bind-apply-helpers@1.0.2 deduped
+│ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ └─┬ has-tostringtag@1.0.2
+│ │   └── has-symbols@1.1.0 deduped
+│ ├── is-constructable@1.0.0
+│ ├── is-es2015@0.1.6
+│ ├── is-function@1.0.2
+│ ├── is-nil@1.0.1
+│ ├── isarray@2.0.5
+│ ├── noop6@1.0.10
+│ └── true-value@2.0.5
+├─┬ important-extremely-useful-classes@3.1.0
+│ ├─┬ cli-color@2.0.4
+│ │ ├─┬ d@1.0.2
+│ │ │ ├── es5-ext@0.10.64 deduped
+│ │ │ └── type@2.7.3
+│ │ ├─┬ es5-ext@0.10.64
+│ │ │ ├── es6-iterator@2.0.3 deduped
+│ │ │ ├─┬ es6-symbol@3.1.4
+│ │ │ │ ├── d@1.0.2 deduped
+│ │ │ │ └─┬ ext@1.7.0
+│ │ │ │   └── type@2.7.3 deduped
+│ │ │ ├─┬ esniff@2.0.1
+│ │ │ │ ├── d@1.0.2 deduped
+│ │ │ │ ├── es5-ext@0.10.64 deduped
+│ │ │ │ ├── event-emitter@0.3.5 deduped
+│ │ │ │ └── type@2.7.3 deduped
+│ │ │ └── next-tick@1.1.0
+│ │ ├─┬ es6-iterator@2.0.3
+│ │ │ ├── d@1.0.2 deduped
+│ │ │ ├── es5-ext@0.10.64 deduped
+│ │ │ └── es6-symbol@3.1.4 deduped
+│ │ ├─┬ memoizee@0.4.17
+│ │ │ ├── d@1.0.2 deduped
+│ │ │ ├── es5-ext@0.10.64 deduped
+│ │ │ ├─┬ es6-weak-map@2.0.3
+│ │ │ │ ├── d@1.0.2 deduped
+│ │ │ │ ├── es5-ext@0.10.64 deduped
+│ │ │ │ ├── es6-iterator@2.0.3 deduped
+│ │ │ │ └── es6-symbol@3.1.4 deduped
+│ │ │ ├─┬ event-emitter@0.3.5
+│ │ │ │ ├── d@1.0.2 deduped
+│ │ │ │ └── es5-ext@0.10.64 deduped
+│ │ │ ├── is-promise@2.2.2
+│ │ │ ├─┬ lru-queue@0.1.0
+│ │ │ │ └── es5-ext@0.10.64 deduped
+│ │ │ ├── next-tick@1.1.0 deduped
+│ │ │ └── timers-ext@0.1.8 deduped
+│ │ └─┬ timers-ext@0.1.8
+│ │   ├── es5-ext@0.10.64 deduped
+│ │   └── next-tick@1.1.0 deduped
+│ ├── construct-new@2.0.4 deduped
+│ ├── examplebyraji@1.0.0
+│ ├─┬ is-true@0.1.1
+│ │ └─┬ isobject@2.1.0
+│ │   └── isarray@1.0.0
+│ ├── logtoconsole@1.0.7
+│ ├── n0p3@1.0.2
+│ ├── the-number-one@1.0.1
+│ ├── tru@1.0.0
+│ └── weird-instanceof@1.0.0
+├─┬ is-false@0.1.1
+│ └── is-true@0.1.1 deduped
+├─┬ lolite.__private.arrayofallbooleans@1.1.15
+│ ├─┬ false-value@2.0.6
+│ │ └── true-value@2.0.5 deduped
+│ └── true-value@2.0.5 deduped
+├─┬ lolite.__private.crash@1.1.15
+│ ├─┬ @rightpad/concat@1.0.0
+│ │ ├── call-bound@1.0.4 deduped
+│ │ └── get-intrinsic@1.3.1 deduped
+│ ├─┬ fizzbuzz-enterprise@1.0.0
+│ │ ├── @10xly/strict-equals@1.0.0 deduped
+│ │ ├── @rightpad/concat@1.0.0 deduped
+│ │ ├── add-two-numbers2@1.0.0
+│ │ ├── capitalize@2.0.4 deduped
+│ │ ├── construct-new@2.0.4 deduped
+│ │ ├── es-logical-and-operator@1.0.0
+│ │ ├── false-value@2.0.6 deduped
+│ │ ├── get-intrinsic@1.3.1 deduped
+│ │ ├─┬ is-multiple-of@1.1.0
+│ │ │ ├── lodash.isequal@4.5.0 deduped
+│ │ │ ├─┬ modulus-operator@1.0.0
+│ │ │ │ └── to-integer@1.0.1 deduped
+│ │ │ └─┬ to-integer@1.0.1
+│ │ │   ├── is-function@1.0.2 deduped
+│ │ │   ├── is-nil@1.0.1 deduped
+│ │ │   ├── is-object@1.0.2 deduped
+│ │ │   └── is-symbol@1.1.1 deduped
+│ │ ├─┬ string-buzz@1.0.0
+│ │ │ ├─┬ general-concat@1.0.0
+│ │ │ │ └── to-str@1.0.0 deduped
+│ │ │ ├── letter-b@1.0.0
+│ │ │ ├── letter-u@1.0.0
+│ │ │ └── letter-z@1.0.0
+│ │ ├─┬ string-fizz@1.0.0
+│ │ │ ├── general-concat@1.0.0 deduped
+│ │ │ ├── letter-f@1.0.0
+│ │ │ ├── letter-i@1.0.0
+│ │ │ └── letter-z@1.0.0 deduped
+│ │ ├── subtract@0.0.3
+│ │ ├── true-value@2.0.5 deduped
+│ │ └── uncurry-x@1.0.1 deduped
+│ ├─┬ immediate-error@11.0.1
+│ │ ├── @npm/mystery-function@npm:eval-intrinsic-ai@1.0.0
+│ │ ├─┬ @positive-numbers/eight@3.0.0
+│ │ │ └─┬ integer-value-positive-eight@1.0.0
+│ │ │   ├── const@1.0.0 deduped
+│ │ │   └─┬ eight-toolkit@1.0.0
+│ │ │     ├── fourteen@2.0.0 deduped
+│ │ │     ├─┬ is-not-eight@8.0.0
+│ │ │     │ └── is-eight@8.0.18
+│ │ │     └── stevelib@1.0.0 deduped
+│ │ ├─┬ @positive-numbers/eleven@3.0.0
+│ │ │ └── eleven@0.0.1
+│ │ ├── @positive-numbers/five@3.0.0 deduped
+│ │ ├── @positive-numbers/four@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/nine@3.0.0
+│ │ │ └─┬ integer-value-positive-nine@1.0.0
+│ │ │   ├── get-intrinsic@1.3.1 deduped
+│ │ │   └─┬ value-nine@9.0.0
+│ │ │     ├── eight-toolkit@1.0.0 deduped
+│ │ │     ├── if@2.0.0 deduped
+│ │ │     ├── jquery-basic-arithmetic-plugin@1.1.0 deduped
+│ │ │     ├── jquery@3.7.1 deduped
+│ │ │     ├── left-pad@1.3.0 deduped
+│ │ │     ├── none@1.0.0 deduped
+│ │ │     ├── noop6@1.0.10 deduped
+│ │ │     ├── not@0.1.0 deduped
+│ │ │     ├── pad@3.3.0 deduped
+│ │ │     ├── right-pad@1.1.1 deduped
+│ │ │     ├── the-number-one@1.0.1 deduped
+│ │ │     ├── vanilla-javascript@1.1.6 deduped
+│ │ │     ├── vapor-js-npm@1.4.6 deduped
+│ │ │     ├── yanoop@1.0.0 deduped
+│ │ │     └── zeropad@1.1.0 deduped
+│ │ ├── @positive-numbers/one@3.0.0 deduped
+│ │ ├── @positive-numbers/seven@3.0.0 deduped
+│ │ ├── @positive-numbers/six@3.0.0 deduped
+│ │ ├── @positive-numbers/three@3.0.0 deduped
+│ │ ├── @positive-numbers/two@3.0.0 deduped
+│ │ ├── @positive-numbers/zero@5.0.0
+│ │ ├── @rightpad/concat@1.0.0 deduped
+│ │ ├─┬ @uppercase-letters/e@3.0.0
+│ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ ├─┬ @uppercase-letters/o@3.0.0
+│ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ ├─┬ @uppercase-letters/r@3.0.0
+│ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ ├── as-array@2.0.0 deduped
+│ │ ├── attempt-statement@1.2.1 deduped
+│ │ ├── bail@1.0.5
+│ │ ├── basic-functions@1.0.6
+│ │ ├── construct-new@2.0.4 deduped
+│ │ ├─┬ deep-freeze-node3@1.1.0
+│ │ │ ├─┬ @nathanfaucett/freeze@0.0.1
+│ │ │ │ ├── @nathanfaucett/empty_function@0.0.1
+│ │ │ │ └─┬ @nathanfaucett/is_native@0.0.2
+│ │ │ │   ├─┬ @nathanfaucett/escape_regexp@0.0.1
+│ │ │ │   │ └─┬ @nathanfaucett/to_string@0.0.1
+│ │ │ │   │   ├── @nathanfaucett/is_null_or_undefined@0.0.1 deduped
+│ │ │ │   │   └── @nathanfaucett/is_string@0.0.1
+│ │ │ │   ├── @nathanfaucett/is_function@0.0.1
+│ │ │ │   └─┬ @nathanfaucett/is_null_or_undefined@0.0.1
+│ │ │ │     ├── @nathanfaucett/is_null@0.0.1
+│ │ │ │     └── @nathanfaucett/is_undefined@0.0.1
+│ │ │ ├── compose-function@3.0.3 deduped
+│ │ │ ├── deep-freeze-node@1.1.3
+│ │ │ ├── deep-freeze-node2@1.1.4
+│ │ │ ├── deep-freeze-strict@1.1.1
+│ │ │ ├── deep-freeze@0.0.1
+│ │ │ ├─┬ deepfreeze@2.0.0
+│ │ │ │ └── x-is-object@0.1.0
+│ │ │ ├── freeze-object@1.0.1
+│ │ │ └─┬ object-intrinsic-ai@1.0.1
+│ │ │   └── es-object-atoms@1.1.1 deduped
+│ │ ├── delay@5.0.0
+│ │ ├── es-error-intrinsics@1.0.1
+│ │ ├─┬ es-intrinsic-cache@1.0.4
+│ │ │ ├── async-function@1.0.0 deduped
+│ │ │ ├── async-generator-function@1.0.0 deduped
+│ │ │ ├── es-define-property@1.0.1 deduped
+│ │ │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │ ├── es-object-atoms@1.1.1 deduped
+│ │ │ ├── function-bind@1.1.2 deduped
+│ │ │ ├── function.apply-x@1.0.0
+│ │ │ ├── function.call-x@1.0.0 deduped
+│ │ │ ├── generator-function@2.0.1 deduped
+│ │ │ ├─┬ get-proto-x@1.0.0
+│ │ │ │ ├─┬ dunder-proto-x@1.0.0
+│ │ │ │ │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │ │ │ ├── es-object-atoms@1.1.1 deduped
+│ │ │ │ │ ├── gopd@1.2.0 deduped
+│ │ │ │ │ └── uncurry-x@1.0.1 deduped
+│ │ │ │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │ │ ├── object.getprototypeof-x@1.0.0 deduped
+│ │ │ │ └── reflect.getprototypeof-x@1.0.0 deduped
+│ │ │ ├── gopd@1.2.0 deduped
+│ │ │ ├── has-symbol-support-x@1.4.2
+│ │ │ ├── hasown@2.0.2 deduped
+│ │ │ ├── math-intrinsics@1.1.0 deduped
+│ │ │ ├─┬ object.getprototypeof-x@1.0.0
+│ │ │ │ └── es-object-atoms@1.1.1 deduped
+│ │ │ └── reflect.getprototypeof-x@1.0.0
+│ │ ├── false-value@2.0.6 deduped
+│ │ ├── fizzbuzz-enterprise@1.0.0 deduped
+│ │ ├── function-bind@1.1.2 deduped
+│ │ ├── is-@1.0.0
+│ │ ├── is-not-integer@1.0.2 deduped
+│ │ ├── jsfruit@1.1.0
+│ │ ├─┬ libperson@1.0.0
+│ │ │ ├── jsfruit@1.1.0 deduped
+│ │ │ └── libvegetable@1.0.0 deduped
+│ │ ├─┬ libvegetable@1.0.0
+│ │ │ ├── jsfruit@1.1.0 deduped
+│ │ │ └─┬ libguacamole@1.0.0
+│ │ │   └── is-positive-integer@1.1.1
+│ │ ├── n0p3-es2015-cjs@1.0.1
+│ │ ├─┬ node-call.then@1.0.0
+│ │ │ ├── as-array@2.0.0 deduped
+│ │ │ ├── basic-functions@1.0.6 deduped
+│ │ │ ├── construct-new@2.0.4 deduped
+│ │ │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │ ├─┬ es-logical-not-operator@1.0.0
+│ │ │ │ ├─┬ @not-js/not@1.1.0
+│ │ │ │ │ └── not@0.1.0 deduped
+│ │ │ │ ├── literally@1.0.0 deduped
+│ │ │ │ └── yanoop@1.0.0 deduped
+│ │ │ ├── es-logical-or-operator@1.0.0
+│ │ │ ├── function.apply-x@1.0.0 deduped
+│ │ │ ├── is-promise@4.0.0
+│ │ │ ├── p-is-promise@3.0.0
+│ │ │ └── uncurry-x@1.0.1 deduped
+│ │ ├── qc-core@0.0.0
+│ │ ├─┬ repeating@2.0.1
+│ │ │ └── is-finite@1.1.0
+│ │ ├── simple-lru-cache@0.0.2
+│ │ ├── true-value@2.0.5 deduped
+│ │ └── uncurry-x@1.0.1 deduped
+│ ├─┬ integer-values@2.0.1
+│ │ ├─┬ @negative-numbers/eight@1.0.0
+│ │ │ ├── @positive-numbers/eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1
+│ │ ├─┬ @negative-numbers/eighteen@1.0.0
+│ │ │ ├── @positive-numbers/eighteen@4.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-eight@1.0.0
+│ │ │ ├── @positive-numbers/eighty-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-five@1.0.0
+│ │ │ ├── @positive-numbers/eighty-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-four@1.0.0
+│ │ │ ├── @positive-numbers/eighty-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-nine@1.0.0
+│ │ │ ├── @positive-numbers/eighty-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-one@1.0.0
+│ │ │ ├── @positive-numbers/eighty-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-seven@1.0.0
+│ │ │ ├── @positive-numbers/eighty-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-six@1.0.0
+│ │ │ ├── @positive-numbers/eighty-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-three@1.0.0
+│ │ │ ├── @positive-numbers/eighty-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty-two@1.0.0
+│ │ │ ├── @positive-numbers/eighty-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eighty@1.0.0
+│ │ │ ├── @positive-numbers/eighty@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/eleven@1.0.0
+│ │ │ ├── @positive-numbers/eleven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifteen@1.0.0
+│ │ │ ├── @positive-numbers/fifteen@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-eight@1.0.0
+│ │ │ ├── @positive-numbers/fifty-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-five@1.0.0
+│ │ │ ├── @positive-numbers/fifty-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-four@1.0.0
+│ │ │ ├── @positive-numbers/fifty-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-nine@1.0.0
+│ │ │ ├── @positive-numbers/fifty-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-one@1.0.0
+│ │ │ ├── @positive-numbers/fifty-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-seven@1.0.0
+│ │ │ ├── @positive-numbers/fifty-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-six@1.0.0
+│ │ │ ├── @positive-numbers/fifty-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-three@1.0.0
+│ │ │ ├── @positive-numbers/fifty-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty-two@1.0.0
+│ │ │ ├── @positive-numbers/fifty-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fifty@1.0.0
+│ │ │ ├── @positive-numbers/fifty@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/five@1.0.0
+│ │ │ ├── @positive-numbers/five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-eight@1.0.0
+│ │ │ ├── @positive-numbers/forty-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-five@1.0.0
+│ │ │ ├── @positive-numbers/forty-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-four@1.0.0
+│ │ │ ├── @positive-numbers/forty-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-nine@1.0.0
+│ │ │ ├── @positive-numbers/forty-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-one@1.0.0
+│ │ │ ├── @positive-numbers/forty-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-seven@1.0.0
+│ │ │ ├── @positive-numbers/forty-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-six@1.0.0
+│ │ │ ├── @positive-numbers/forty-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-three@1.0.0
+│ │ │ ├── @positive-numbers/forty-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty-two@1.0.0
+│ │ │ ├── @positive-numbers/forty-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/forty@1.0.0
+│ │ │ ├── @positive-numbers/forty@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/four@1.0.0
+│ │ │ ├── @positive-numbers/four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/fourteen@1.0.0
+│ │ │ ├── @positive-numbers/fourteen@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/nine@1.0.0
+│ │ │ ├── @positive-numbers/nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/nineteen@1.0.0
+│ │ │ ├── @positive-numbers/nineteen@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-eight@1.0.0
+│ │ │ ├── @positive-numbers/ninety-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-five@1.0.0
+│ │ │ ├── @positive-numbers/ninety-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-four@1.0.0
+│ │ │ ├── @positive-numbers/ninety-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-nine@1.0.0
+│ │ │ ├── @positive-numbers/ninety-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-one@1.0.0
+│ │ │ ├── @positive-numbers/ninety-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-seven@1.0.0
+│ │ │ ├── @positive-numbers/ninety-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-six@1.0.0
+│ │ │ ├── @positive-numbers/ninety-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-three@1.0.0
+│ │ │ ├── @positive-numbers/ninety-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety-two@1.0.0
+│ │ │ ├── @positive-numbers/ninety-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ninety@1.0.0
+│ │ │ ├── @positive-numbers/ninety@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/one-hundred@1.0.0
+│ │ │ ├── @positive-numbers/one-hundred@5.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/one@1.0.0
+│ │ │ ├── @positive-numbers/one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seven@1.0.0
+│ │ │ ├── @positive-numbers/seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventeen@1.0.0
+│ │ │ ├── @positive-numbers/seventeen@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-eight@1.0.0
+│ │ │ ├── @positive-numbers/seventy-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-five@1.0.0
+│ │ │ ├── @positive-numbers/seventy-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-four@1.0.0
+│ │ │ ├── @positive-numbers/seventy-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-nine@1.0.0
+│ │ │ ├── @positive-numbers/seventy-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-one@1.0.0
+│ │ │ ├── @positive-numbers/seventy-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-seven@1.0.0
+│ │ │ ├── @positive-numbers/seventy-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-six@1.0.0
+│ │ │ ├── @positive-numbers/seventy-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-three@1.0.0
+│ │ │ ├── @positive-numbers/seventy-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy-two@1.0.0
+│ │ │ ├── @positive-numbers/seventy-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/seventy@1.0.0
+│ │ │ ├── @positive-numbers/seventy@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/six@1.0.0
+│ │ │ ├── @positive-numbers/six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixteen@1.0.0
+│ │ │ ├── @positive-numbers/sixteen@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-eight@1.0.0
+│ │ │ ├── @positive-numbers/sixty-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-five@1.0.0
+│ │ │ ├── @positive-numbers/sixty-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-four@1.0.0
+│ │ │ ├── @positive-numbers/sixty-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-nine@1.0.0
+│ │ │ ├── @positive-numbers/sixty-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-one@1.0.0
+│ │ │ ├── @positive-numbers/sixty-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-seven@1.0.0
+│ │ │ ├── @positive-numbers/sixty-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-six@1.0.0
+│ │ │ ├── @positive-numbers/sixty-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-three@1.0.0
+│ │ │ ├── @positive-numbers/sixty-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty-two@1.0.0
+│ │ │ ├── @positive-numbers/sixty-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/sixty@1.0.0
+│ │ │ ├── @positive-numbers/sixty@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/ten@1.0.0
+│ │ │ ├── @positive-numbers/ten@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirteen@1.0.0
+│ │ │ ├── @positive-numbers/thirteen@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-eight@1.0.0
+│ │ │ ├── @positive-numbers/thirty-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-five@1.0.0
+│ │ │ ├── @positive-numbers/thirty-five@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-four@1.0.0
+│ │ │ ├── @positive-numbers/thirty-four@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-nine@1.0.0
+│ │ │ ├── @positive-numbers/thirty-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-one@1.0.0
+│ │ │ ├── @positive-numbers/thirty-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-seven@1.0.0
+│ │ │ ├── @positive-numbers/thirty-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-six@1.0.0
+│ │ │ ├── @positive-numbers/thirty-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-three@1.0.0
+│ │ │ ├── @positive-numbers/thirty-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty-two@1.0.0
+│ │ │ ├── @positive-numbers/thirty-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/thirty@1.0.0
+│ │ │ ├── @positive-numbers/thirty@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/three@1.0.0
+│ │ │ ├── @positive-numbers/three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twelve@1.0.0
+│ │ │ ├── @positive-numbers/twelve@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-eight@1.0.0
+│ │ │ ├── @positive-numbers/twenty-eight@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-five@1.0.0
+│ │ │ ├── @positive-numbers/twenty-five@4.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-four@1.0.0
+│ │ │ ├── @positive-numbers/twenty-four@5.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-nine@1.0.0
+│ │ │ ├── @positive-numbers/twenty-nine@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-one@1.0.0
+│ │ │ ├── @positive-numbers/twenty-one@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-seven@1.0.0
+│ │ │ ├── @positive-numbers/twenty-seven@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-six@1.0.0
+│ │ │ ├── @positive-numbers/twenty-six@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-three@1.0.0
+│ │ │ ├── @positive-numbers/twenty-three@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty-two@1.0.0
+│ │ │ ├── @positive-numbers/twenty-two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/twenty@1.0.0
+│ │ │ ├── @positive-numbers/twenty@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/two@1.0.0
+│ │ │ ├── @positive-numbers/two@3.0.0 deduped
+│ │ │ └── countingup@0.0.1 deduped
+│ │ ├─┬ @negative-numbers/zero@1.0.0
+│ │ │ ├─┬ infinities@1.0.1
+│ │ │ │ ├── math-intrinsics@1.1.0 deduped
+│ │ │ │ └─┬ noargs-wrapper@1.1.0
+│ │ │ │   └── ramda.nary@0.26.1
+│ │ │ ├── integer-value-positive-one@1.0.2 deduped
+│ │ │ └── lodash.divide@4.9.0
+│ │ ├── @positive-numbers/eight@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/eighteen@4.0.0
+│ │ │ └─┬ @std262/libnumbers@1.0.0
+│ │ │   ├── compute-hmean@1.0.0
+│ │ │   ├── construct-new@2.0.4 deduped
+│ │ │   ├── false-value@2.0.6 deduped
+│ │ │   ├── jquery-basic-arithmetic-plugin@1.1.0 deduped
+│ │ │   ├── jquery@3.7.1
+│ │ │   ├── libvegetable@1.0.0 deduped
+│ │ │   ├── math-intrinsics@1.1.0 deduped
+│ │ │   ├── number-zero@1.0.3 deduped
+│ │ │   ├─┬ numeric-constant-three@1.0.0
+│ │ │   │ ├── successor@1.0.1 deduped
+│ │ │   │ └── two@1.0.7 deduped
+│ │ │   ├── seventeen-integer@1.0.0 deduped
+│ │ │   ├── successor@1.0.1 deduped
+│ │ │   ├── true-value@2.0.5 deduped
+│ │ │   ├─┬ two@1.0.7
+│ │ │   │ └── lodash@4.17.21 deduped
+│ │ │   └─┬ zerosurge@16.0.1
+│ │ │     ├── @10xly/strict-equals@1.0.0 deduped
+│ │ │     ├── @rightpad/concat@1.0.0 deduped
+│ │ │     ├─┬ betterloggingwithecho@1.0.0
+│ │ │     │ └── logtoconsole@1.0.7 deduped
+│ │ │     ├─┬ chalk@4.1.2
+│ │ │     │ ├─┬ ansi-styles@4.3.0
+│ │ │     │ │ └─┬ color-convert@2.0.1
+│ │ │     │ │   └── color-name@1.1.4
+│ │ │     │ └─┬ supports-color@7.2.0
+│ │ │     │   └── has-flag@4.0.0
+│ │ │     ├─┬ immediate-error@7.1.0
+│ │ │     │ ├── @positive-numbers/five@3.0.0 deduped
+│ │ │     │ ├── @positive-numbers/four@3.0.0 deduped
+│ │ │     │ ├── @positive-numbers/one@3.0.0 deduped
+│ │ │     │ ├── @positive-numbers/six@3.0.0 deduped
+│ │ │     │ ├── @positive-numbers/three@3.0.0 deduped
+│ │ │     │ ├── @positive-numbers/two@3.0.0 deduped
+│ │ │     │ ├── @positive-numbers/zero@3.0.0 deduped
+│ │ │     │ ├── attempt-statement@1.2.1 deduped
+│ │ │     │ ├── bail@1.0.5 deduped
+│ │ │     │ ├── construct-new@2.0.4 deduped
+│ │ │     │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │     │ ├── es-intrinsic-cache@1.0.4 deduped
+│ │ │     │ ├── es-object-atoms@1.1.1 deduped
+│ │ │     │ ├── number-zero@1.0.3 deduped
+│ │ │     │ ├── switch-in-fp@3.0.0 deduped
+│ │ │     │ ├── true-value@2.0.5 deduped
+│ │ │     │ └── yanoop@1.0.0 deduped
+│ │ │     ├── literally@1.0.0 deduped
+│ │ │     ├── minecraft-seed-input@1.0.0
+│ │ │     ├── my-simple-add-test@1.1.0
+│ │ │     ├─┬ not-not@1.0.2
+│ │ │     │ └── not@0.1.0 deduped
+│ │ │     ├── random-number@0.0.9
+│ │ │     ├── string-creashaks-organzine@1.0.0 deduped
+│ │ │     ├── to-str@1.0.0 deduped
+│ │ │     └── yanoop@1.0.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-eight@3.0.0
+│ │ │ └── five@0.8.0
+│ │ ├─┬ @positive-numbers/eighty-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty-two@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/eighty@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├── @positive-numbers/eleven@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/fifteen@3.0.0
+│ │ │ └─┬ number-fifteen@1.0.0
+│ │ │   └── fifteen-kilos@2.0.0
+│ │ ├─┬ @positive-numbers/fifty-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty-two@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/fifty@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├── @positive-numbers/five@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/forty-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/forty-two@3.0.0
+│ │ │ └── the-answer-to-the-ultimate-question-of-life-the-universe-and-everything@1.0.0
+│ │ ├─┬ @positive-numbers/forty@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├── @positive-numbers/four@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/fourteen@3.0.0
+│ │ │ └─┬ fourteen@2.0.0
+│ │ │   ├── always-thirteen@1.0.3 deduped
+│ │ │   └── successor@1.0.1 deduped
+│ │ ├── @positive-numbers/nine@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/nineteen@3.0.0
+│ │ │ └─┬ nineteenify@1.0.5
+│ │ │   ├── attempt-statement@1.2.1 deduped
+│ │ │   ├── cli-color@2.0.4 deduped
+│ │ │   ├── empty-string@1.1.1 deduped
+│ │ │   ├─┬ immediate-error@11.0.1
+│ │ │   │ ├── @npm/mystery-function@npm:eval-intrinsic-ai@1.0.0 deduped
+│ │ │   │ ├── @positive-numbers/eight@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/eleven@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/five@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/four@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/nine@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/one@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/seven@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/six@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/three@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/two@3.0.0 deduped
+│ │ │   │ ├── @positive-numbers/zero@5.0.0
+│ │ │   │ ├── @rightpad/concat@1.0.0 deduped
+│ │ │   │ ├─┬ @uppercase-letters/e@3.0.0
+│ │ │   │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │   │ ├─┬ @uppercase-letters/o@3.0.0
+│ │ │   │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │   │ ├─┬ @uppercase-letters/r@3.0.0
+│ │ │   │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │   │ ├── as-array@2.0.0 deduped
+│ │ │   │ ├── attempt-statement@1.2.1 deduped
+│ │ │   │ ├── bail@1.0.5 deduped
+│ │ │   │ ├── basic-functions@1.0.6 deduped
+│ │ │   │ ├── construct-new@2.0.4 deduped
+│ │ │   │ ├── deep-freeze-node3@1.1.0 deduped
+│ │ │   │ ├── delay@5.0.0 deduped
+│ │ │   │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │   │ ├── es-intrinsic-cache@1.0.4 deduped
+│ │ │   │ ├── false-value@2.0.6 deduped
+│ │ │   │ ├── fizzbuzz-enterprise@1.0.0 deduped
+│ │ │   │ ├── function-bind@1.1.2 deduped
+│ │ │   │ ├── is-@1.0.0 deduped
+│ │ │   │ ├── is-not-integer@1.0.2 deduped
+│ │ │   │ ├── jsfruit@1.1.0 deduped
+│ │ │   │ ├── libperson@1.0.0 deduped
+│ │ │   │ ├── libvegetable@1.0.0 deduped
+│ │ │   │ ├── n0p3-es2015-cjs@1.0.1 deduped
+│ │ │   │ ├── node-call.then@1.0.0 deduped
+│ │ │   │ ├── qc-core@0.0.0 deduped
+│ │ │   │ ├── repeating@2.0.1 deduped
+│ │ │   │ ├── simple-lru-cache@0.0.2 deduped
+│ │ │   │ ├── true-value@2.0.5 deduped
+│ │ │   │ └── uncurry-x@1.0.1 deduped
+│ │ │   ├── is-array@1.0.1
+│ │ │   ├── is-number@7.0.0 deduped
+│ │ │   ├─┬ is-string@1.1.1
+│ │ │   │ ├── call-bound@1.0.4 deduped
+│ │ │   │ └── has-tostringtag@1.0.2 deduped
+│ │ │   ├── isarray@2.0.5 deduped
+│ │ │   ├── jquery-basic-arithmetic-plugin@1.1.0 deduped
+│ │ │   ├── jquery@3.7.1 deduped
+│ │ │   ├── left-pad@1.3.0
+│ │ │   ├── logtoconsole@1.0.7 deduped
+│ │ │   ├── none@1.0.0 deduped
+│ │ │   ├── noop6@1.0.10 deduped
+│ │ │   ├── not@0.1.0
+│ │ │   ├─┬ pad@3.3.0
+│ │ │   │ ├── UNMET OPTIONAL DEPENDENCY @rollup/rollup-linux-x64-gnu@4.9.5
+│ │ │   │ └─┬ wcwidth@1.0.1
+│ │ │   │   └─┬ defaults@1.0.4
+│ │ │   │     └── clone@1.0.4
+│ │ │   ├── right-pad@1.1.1
+│ │ │   ├── the-number-ten@0.0.2 deduped
+│ │ │   ├── true-value@2.0.5 deduped
+│ │ │   ├── vanilla-javascript@1.1.6 deduped
+│ │ │   ├── vapor-js-npm@1.4.6
+│ │ │   ├── yanoop@1.0.0 deduped
+│ │ │   └─┬ zeropad@1.1.0
+│ │ │     └── negative-zero@1.0.0
+│ │ ├─┬ @positive-numbers/ninety-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety-two@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ninety@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/one-hundred@5.0.0
+│ │ │ └── fizzbuzz-enterprise@1.0.0 deduped
+│ │ ├── @positive-numbers/one@3.0.0 deduped
+│ │ ├── @positive-numbers/seven@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/seventeen@3.0.0
+│ │ │ └─┬ seventeen-integer@1.0.0
+│ │ │   ├── sixteen-constant@1.0.0 deduped
+│ │ │   └── successor@1.0.1 deduped
+│ │ ├─┬ @positive-numbers/seventy-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy-two@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/seventy@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├── @positive-numbers/six@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/sixteen@3.0.0
+│ │ │ └─┬ sixteen-constant@1.0.0
+│ │ │   └─┬ fifteen-point-eight-three-five-two-six-six-eight-two-and-so-on@1.0.0
+│ │ │     ├── always-thirteen@1.0.3 deduped
+│ │ │     ├── compute-hmean@1.0.0 deduped
+│ │ │     ├── fourteen@2.0.0 deduped
+│ │ │     ├── meaning-of-life@1.0.0
+│ │ │     └── number-fifteen@1.0.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty-two@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/sixty@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/ten@3.0.0
+│ │ │ └─┬ the-number-ten@0.0.2
+│ │ │   ├── garbage@0.0.0
+│ │ │   ├── jquery-basic-arithmetic-plugin@1.1.0 deduped
+│ │ │   ├── jquery@3.7.1 deduped
+│ │ │   ├── libvegetable@1.0.0 deduped
+│ │ │   ├── none@1.0.0 deduped
+│ │ │   ├── the-number-one@1.0.1 deduped
+│ │ │   ├── vanilla-javascript@1.1.6 deduped
+│ │ │   └── vapor-js-npm@1.4.6 deduped
+│ │ ├─┬ @positive-numbers/thirteen@3.0.0
+│ │ │ └── always-thirteen@1.0.3
+│ │ ├─┬ @positive-numbers/thirty-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-five@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-four@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-one@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-three@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty-two@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/thirty@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├── @positive-numbers/three@3.0.0 deduped
+│ │ ├─┬ @positive-numbers/twelve@3.0.0
+│ │ │ └─┬ tw12ve@1.0.0
+│ │ │   ├── eleven@0.0.1 deduped
+│ │ │   ├── lodash.constant@3.0.0 deduped
+│ │ │   └── successor@1.0.1 deduped
+│ │ ├─┬ @positive-numbers/twenty-eight@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/twenty-five@4.0.0
+│ │ │ └─┬ node-twentyfive@25.25.2-5.1
+│ │ │   ├── literally@1.0.0 deduped
+│ │ │   ├── numbertwentyfour@1.0.1 deduped
+│ │ │   └── successor@1.0.1 deduped
+│ │ ├─┬ @positive-numbers/twenty-four@5.0.0
+│ │ │ └─┬ numbertwentyfour@1.0.1
+│ │ │   ├── add-two-numbers2@1.0.0 deduped
+│ │ │   ├── array-find@1.0.0
+│ │ │   ├── indexof@0.0.1
+│ │ │   ├── returndotjs@1.0.0 deduped
+│ │ │   ├── the-number-one@1.0.1 deduped
+│ │ │   ├── true@0.0.4 deduped
+│ │ │   └── twenty-four@25.0.0
+│ │ ├─┬ @positive-numbers/twenty-nine@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/twenty-one@3.0.0
+│ │ │ └── always-21@1.0.0
+│ │ ├─┬ @positive-numbers/twenty-seven@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/twenty-six@3.0.0
+│ │ │ └── five@0.8.0 deduped
+│ │ ├─┬ @positive-numbers/twenty-three@3.0.0
+│ │ │ └─┬ twenty-three-tools@1.0.0
+│ │ │   ├── successor@1.0.1 deduped
+│ │ │   └── twentytwo@22.0.0 deduped
+│ │ ├─┬ @positive-numbers/twenty-two@3.0.0
+│ │ │ └─┬ twentytwo@22.0.0
+│ │ │   ├── five@0.8.0 deduped
+│ │ │   └── two@1.0.7 deduped
+│ │ ├─┬ @positive-numbers/twenty@3.0.0
+│ │ │ └─┬ numbertwenty@1.0.4
+│ │ │   ├── @10xly/strict-equals@1.0.0 deduped
+│ │ │   ├── brototype@0.0.6
+│ │ │   ├── cli-color@2.0.4 deduped
+│ │ │   ├── false-value@2.0.6 deduped
+│ │ │   ├── logtoconsole@1.0.7 deduped
+│ │ │   ├── nineteenify@1.0.5 deduped
+│ │ │   ├── none@1.0.0 deduped
+│ │ │   ├── successor@1.0.1 deduped
+│ │ │   ├── tru@1.0.0 deduped
+│ │ │   ├── vanilla-javascript@1.1.6 deduped
+│ │ │   ├── vapor-js-npm@1.4.6 deduped
+│ │ │   └── yanoop@1.0.0 deduped
+│ │ ├── @positive-numbers/two@3.0.0 deduped
+│ │ └── @positive-numbers/zero@3.0.0 deduped
+│ ├── is-not-integer@1.0.2
+│ ├── lodash.multiply@4.9.0
+│ ├── logtoconsole@1.0.7 deduped
+│ └── setTimeout@0.4.9
+├─┬ lolite.constant@1.1.15
+│ ├── @10xly/strict-equals@1.0.0
+│ ├─┬ @identity-js/identity@1.2.5
+│ │ ├── @f/identity@1.1.1
+│ │ ├─┬ @identity-js/number-identity@1.2.2
+│ │ │ ├── @is-(unknown)/is-finite@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/eight@1.0.0
+│ │ │ │ └── integer-value-positive-eight@1.0.0 deduped
+│ │ │ ├── @positive-numbers/eighteen@4.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty-two@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eighty@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/eleven@1.0.0
+│ │ │ │ └── eleven@0.0.1 deduped
+│ │ │ ├─┬ @positive-numbers/fifteen@1.0.0
+│ │ │ │ └── number-fifteen@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty-two@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/fifty@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/five@1.0.0
+│ │ │ │ └── integer-value-positive-five@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty-two@1.0.0
+│ │ │ │ └── the-answer-to-the-ultimate-question-of-life-the-universe-and-everything@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/forty@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/four@1.0.0
+│ │ │ │ └── integer-value-positive-four@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/fourteen@1.0.0
+│ │ │ │ └── fourteen@2.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/nine@1.0.0
+│ │ │ │ └── integer-value-positive-nine@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/nineteen@1.1.0
+│ │ │ │ └── nineteenify@1.0.5 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety-two@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ninety@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├── @positive-numbers/one-hundred@5.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/one@1.0.0
+│ │ │ │ └── integer-value-positive-one@1.0.2 deduped
+│ │ │ ├─┬ @positive-numbers/seven@1.0.0
+│ │ │ │ └── integer-value-positive-seven@1.0.1 deduped
+│ │ │ ├─┬ @positive-numbers/seventeen@1.0.0
+│ │ │ │ └── seventeen-integer@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy-two@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/seventy@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/six@1.0.0
+│ │ │ │ └── integer-value-positive-six@1.0.1 deduped
+│ │ │ ├─┬ @positive-numbers/sixteen@1.0.0
+│ │ │ │ └── sixteen-constant@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty-two@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/sixty@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/ten@1.0.0
+│ │ │ │ └── the-number-ten@0.0.2 deduped
+│ │ │ ├─┬ @positive-numbers/thirteen@1.0.0
+│ │ │ │ └── always-thirteen@1.0.3 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-one@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-three@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty-two@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/thirty@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/three@1.0.0
+│ │ │ │ └── integer-value-positive-three@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/twelve@1.0.0
+│ │ │ │ └── tw12ve@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-eight@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-five@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-four@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-nine@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-one@1.0.0
+│ │ │ │ └── always-21@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-seven@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-six@1.0.0
+│ │ │ │ └── five@0.8.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-three@1.0.0
+│ │ │ │ └── twenty-three-tools@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/twenty-two@1.0.0
+│ │ │ │ └── twentytwo@22.0.0 deduped
+│ │ │ ├── @positive-numbers/twenty@3.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/two@1.0.0
+│ │ │ │ └── integer-value-positive-two@1.0.0 deduped
+│ │ │ ├─┬ @positive-numbers/zero@6.0.0
+│ │ │ │ └── @std262/libnumbers@1.0.0 deduped
+│ │ │ ├── es-logical-not-operator@1.0.0 deduped
+│ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ immediate-error@11.0.1
+│ │ │ │ ├── @npm/mystery-function@npm:eval-intrinsic-ai@1.0.0 deduped
+│ │ │ │ ├─┬ @positive-numbers/eight@3.0.0
+│ │ │ │ │ └── integer-value-positive-eight@1.0.0 deduped
+│ │ │ │ ├─┬ @positive-numbers/eleven@3.0.0
+│ │ │ │ │ └── eleven@0.0.1 deduped
+│ │ │ │ ├─┬ @positive-numbers/five@3.0.0
+│ │ │ │ │ └── integer-value-positive-five@1.0.0 deduped
+│ │ │ │ ├─┬ @positive-numbers/four@3.0.0
+│ │ │ │ │ └── integer-value-positive-four@1.0.0 deduped
+│ │ │ │ ├─┬ @positive-numbers/nine@3.0.0
+│ │ │ │ │ └── integer-value-positive-nine@1.0.0 deduped
+│ │ │ │ ├─┬ @positive-numbers/one@3.0.0
+│ │ │ │ │ └── integer-value-positive-one@1.0.2 deduped
+│ │ │ │ ├─┬ @positive-numbers/seven@3.0.0
+│ │ │ │ │ └── integer-value-positive-seven@1.0.1 deduped
+│ │ │ │ ├─┬ @positive-numbers/six@3.0.0
+│ │ │ │ │ └── integer-value-positive-six@1.0.1 deduped
+│ │ │ │ ├─┬ @positive-numbers/three@3.0.0
+│ │ │ │ │ └── integer-value-positive-three@1.0.0 deduped
+│ │ │ │ ├─┬ @positive-numbers/two@3.0.0
+│ │ │ │ │ └── integer-value-positive-two@1.0.0 deduped
+│ │ │ │ ├── @positive-numbers/zero@5.0.0
+│ │ │ │ ├── @rightpad/concat@1.0.0 deduped
+│ │ │ │ ├─┬ @uppercase-letters/e@3.0.0
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├─┬ @uppercase-letters/o@3.0.0
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├─┬ @uppercase-letters/r@3.0.0
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├── as-array@2.0.0 deduped
+│ │ │ │ ├── attempt-statement@1.2.1 deduped
+│ │ │ │ ├── bail@1.0.5 deduped
+│ │ │ │ ├── basic-functions@1.0.6 deduped
+│ │ │ │ ├── construct-new@2.0.4 deduped
+│ │ │ │ ├── deep-freeze-node3@1.1.0 deduped
+│ │ │ │ ├── delay@5.0.0 deduped
+│ │ │ │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │ │ ├── es-intrinsic-cache@1.0.4 deduped
+│ │ │ │ ├── false-value@2.0.6 deduped
+│ │ │ │ ├── fizzbuzz-enterprise@1.0.0 deduped
+│ │ │ │ ├── function-bind@1.1.2 deduped
+│ │ │ │ ├── is-@1.0.0 deduped
+│ │ │ │ ├── is-not-integer@1.0.2 deduped
+│ │ │ │ ├── jsfruit@1.1.0 deduped
+│ │ │ │ ├── libperson@1.0.0 deduped
+│ │ │ │ ├── libvegetable@1.0.0 deduped
+│ │ │ │ ├── n0p3-es2015-cjs@1.0.1 deduped
+│ │ │ │ ├── node-call.then@1.0.0 deduped
+│ │ │ │ ├── qc-core@0.0.0 deduped
+│ │ │ │ ├── repeating@2.0.1 deduped
+│ │ │ │ ├── simple-lru-cache@0.0.2 deduped
+│ │ │ │ ├── true-value@2.0.5 deduped
+│ │ │ │ └── uncurry-x@1.0.1 deduped
+│ │ │ └── is-not-integer@1.0.2 deduped
+│ │ ├─┬ @identity-js/string-identity@1.1.2
+│ │ │ ├─┬ @lowercase-letters/a@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/b@2.0.0
+│ │ │ │ └── letter-b@1.0.0 deduped
+│ │ │ ├─┬ @lowercase-letters/c@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/d@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/e@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/f@2.0.0
+│ │ │ │ └── letter-f@1.0.0 deduped
+│ │ │ ├─┬ @lowercase-letters/g@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/h@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/i@2.0.0
+│ │ │ │ └── letter-i@1.0.0 deduped
+│ │ │ ├─┬ @lowercase-letters/j@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/k@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/l@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/m@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/n@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/o@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/p@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/q@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/r@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/s@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/t@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/u@2.0.0
+│ │ │ │ └── letter-u@1.0.0 deduped
+│ │ │ ├─┬ @lowercase-letters/v@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/w@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/x@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/y@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @lowercase-letters/z@2.0.0
+│ │ │ │ └── letter-z@1.0.0 deduped
+│ │ │ ├─┬ @overkill/is-wds@1.3.1
+│ │ │ │ ├── @abdoaitwihi/is-wds@1.0.0
+│ │ │ │ ├── @ahmad_hassaan_24/is-wds@1.0.0
+│ │ │ │ ├── @aj1999/is-wds@1.0.0
+│ │ │ │ ├── @albertoarf13/is-wds@1.0.0
+│ │ │ │ ├── @aniruk/is-wds@1.0.0
+│ │ │ │ ├── @apkap83/is-wds-tolis@1.0.0
+│ │ │ │ ├── @baplaninarenje/is-wds@1.0.0
+│ │ │ │ ├── @barzanogian/is-wds@1.0.0
+│ │ │ │ ├── @basheertp/is-wds-bash@1.0.0
+│ │ │ │ ├── @borah17/is-wds@1.0.0
+│ │ │ │ ├── @codeqrypt/is-wds-cq@2.0.0
+│ │ │ │ ├── @curat/is-wds@1.0.0
+│ │ │ │ ├── @davebrown/is-wds@1.0.0
+│ │ │ │ ├── @davidsyckle/is-wds@1.0.0
+│ │ │ │ ├── @davidvillalobosvargas/is-wds@1.0.0
+│ │ │ │ ├── @dennis_okoye/is-wds2@1.0.0
+│ │ │ │ ├── @developfer/iswds@1.0.0
+│ │ │ │ ├── @eliasespinosa/is-wds@1.0.0
+│ │ │ │ ├── @emmanuella194/is-wds@1.0.0
+│ │ │ │ ├── @gonzalojaviermuller/is-wds@1.0.0
+│ │ │ │ ├── @helloprasanta/is-wds@1.0.0
+│ │ │ │ ├── @henryhuo/is-wds@1.0.0
+│ │ │ │ ├── @imen.jaouadi/is-wds@1.0.0
+│ │ │ │ ├── @j.adilovic/is-wds@1.0.0
+│ │ │ │ ├── @john668582/is-wds@1.0.0
+│ │ │ │ ├── @jorges7ven/is-wds@1.0.0
+│ │ │ │ ├── @jugurta/is-wds@1.0.0
+│ │ │ │ ├── @khushi_goel/is-wds@1.0.0
+│ │ │ │ ├── @krishnasugosa/is-wds-krishnasugosa@1.0.0
+│ │ │ │ ├── @kspsaipraveen/is-wds@1.0.0
+│ │ │ │ ├── @lo1pak1hang/is-wds@1.0.0
+│ │ │ │ ├── @logenini112/is-wds@1.0.0
+│ │ │ │ ├── @mamosian/is-wds@1.1.1
+│ │ │ │ ├── @mariogl_digi/is-wds@1.0.0
+│ │ │ │ ├── @matijakaraklic/is-wds@1.0.1
+│ │ │ │ ├── @mayukhchatterjee1/is-wds@1.0.0
+│ │ │ │ ├── @moof44/is-wds@1.0.0
+│ │ │ │ ├── @nasomn7/is-wds@1.0.0
+│ │ │ │ ├── @nathanholloway/is-wds@1.0.1
+│ │ │ │ ├── @navaneethkv/is-wds@1.1.0
+│ │ │ │ ├── @nik-55/is-wds@1.0.0
+│ │ │ │ ├── @noucha/is-wds@1.0.0
+│ │ │ │ ├── @onemole/is-wds@1.0.0
+│ │ │ │ ├── @parsonsnguyen/is-wds@1.0.2
+│ │ │ │ ├── @pijushchakma120/is-wds@1.0.0
+│ │ │ │ ├── @pksm/is-wds@1.0.0
+│ │ │ │ ├── @rabiabaloch/is-wds@1.0.0
+│ │ │ │ ├── @realsarius/is-wds@1.0.1
+│ │ │ │ ├── @rejina_kp/is-wds@1.0.0
+│ │ │ │ ├── @remainhumble/is-wds@1.0.0
+│ │ │ │ ├── @rishika525/is-wds@1.0.0
+│ │ │ │ ├─┬ @rjvelazco/is-wds@1.0.1
+│ │ │ │ │ └── lodash.isequal@4.5.0 deduped
+│ │ │ │ ├── @robinob/is-wds@1.0.0
+│ │ │ │ ├── @sakrambutt/is-wds@1.0.0
+│ │ │ │ ├── @steins_ago/is-wds@1.0.0
+│ │ │ │ ├── @teknari/is-wds@1.0.0
+│ │ │ │ ├── @tofuaner/is-wds@1.0.0
+│ │ │ │ ├── @vincentpro/is-wds@1.0.0
+│ │ │ │ ├── @web-dev-simplified/is-wds@1.0.0
+│ │ │ │ ├── @xacah/is-wds@1.0.0
+│ │ │ │ ├── aagam-is-wds1@1.0.0
+│ │ │ │ ├── amy-is-wds@1.0.0
+│ │ │ │ ├─┬ array-concat@0.1.1
+│ │ │ │ │ └── curry2@0.1.0
+│ │ │ │ ├── gianbarzano-is-wds@1.0.0
+│ │ │ │ ├── gneisscode-iswds@0.0.1
+│ │ │ │ ├── hasown@2.0.2 deduped
+│ │ │ │ ├── is-function@1.0.2 deduped
+│ │ │ │ ├── is-object@1.0.2 deduped
+│ │ │ │ ├── is-wds_gourib@1.0.0
+│ │ │ │ ├── is-wds-2@1.0.0
+│ │ │ │ ├── is-wds-99@1.0.0
+│ │ │ │ ├── is-wds-9991@1.0.0
+│ │ │ │ ├── is-wds-alina@1.0.0
+│ │ │ │ ├── is-wds-ap@1.0.0
+│ │ │ │ ├── is-wds-asiflhr@1.1.0
+│ │ │ │ ├── is-wds-bart@1.0.0
+│ │ │ │ ├── is-wds-bash@1.0.0
+│ │ │ │ ├── is-wds-by-sam@1.0.0
+│ │ │ │ ├── is-wds-by@1.0.0
+│ │ │ │ ├── is-wds-bztravis@1.0.0
+│ │ │ │ ├── is-wds-clone@1.0.0
+│ │ │ │ ├── is-wds-cq@1.0.0
+│ │ │ │ ├── is-wds-crypto@1.0.5
+│ │ │ │ ├── is-wds-csm@1.0.2
+│ │ │ │ ├── is-wds-dan123@1.0.0
+│ │ │ │ ├── is-wds-data@1.0.0
+│ │ │ │ ├─┬ is-wds-demovid2@1.0.9
+│ │ │ │ │ └─┬ node-fetch@3.3.2
+│ │ │ │ │   ├── data-uri-to-buffer@4.0.1
+│ │ │ │ │   ├─┬ fetch-blob@3.2.0
+│ │ │ │ │   │ ├── node-domexception@1.0.0
+│ │ │ │ │   │ └── web-streams-polyfill@3.3.3
+│ │ │ │ │   └─┬ formdata-polyfill@4.0.10
+│ │ │ │ │     └── fetch-blob@3.2.0 deduped
+│ │ │ │ ├── is-wds-dsyckle@1.0.0
+│ │ │ │ ├── is-wds-dummy@1.0.0
+│ │ │ │ ├── is-wds-emma-youtube@1.0.0
+│ │ │ │ ├── is-wds-first-package-bob@1.0.0
+│ │ │ │ ├── is-wds-haojin@1.0.0
+│ │ │ │ ├── is-wds-hussien@1.1.0
+│ │ │ │ ├── is-wds-huy@1.0.0
+│ │ │ │ ├── is-wds-issa@1.0.0
+│ │ │ │ ├── is-wds-iyabc@1.0.0
+│ │ │ │ ├── is-wds-krishnasugosa@1.0.0
+│ │ │ │ ├── is-wds-kyc-wds-kyc@1.0.0
+│ │ │ │ ├── is-wds-leoaivy-pro@1.0.0
+│ │ │ │ ├── is-wds-lmao@1.0.0
+│ │ │ │ ├── is-wds-masud@1.0.0
+│ │ │ │ ├── is-wds-mkw-new@1.0.0
+│ │ │ │ ├── is-wds-new@1.0.0
+│ │ │ │ ├── is-wds-nietocurcio@1.0.0
+│ │ │ │ ├── is-wds-npm-package@1.0.0
+│ │ │ │ ├── is-wds-or-not@1.0.0
+│ │ │ │ ├── is-wds-package-util@1.0.0
+│ │ │ │ ├── is-wds-palak@1.0.0
+│ │ │ │ ├── is-wds-paul-testing@1.0.0
+│ │ │ │ ├── is-wds-sandhya@1.0.0
+│ │ │ │ ├── is-wds-sg@1.1.2
+│ │ │ │ ├─┬ is-wds-sk@1.0.3
+│ │ │ │ │ └─┬ inquirer@12.11.1
+│ │ │ │ │   ├── @inquirer/ansi@1.0.2
+│ │ │ │ │   ├─┬ @inquirer/core@10.3.2
+│ │ │ │ │   │ ├── @inquirer/ansi@1.0.2 deduped
+│ │ │ │ │   │ ├── @inquirer/figures@1.0.15
+│ │ │ │ │   │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ ├── cli-width@4.1.0
+│ │ │ │ │   │ ├── mute-stream@2.0.0 deduped
+│ │ │ │ │   │ ├── signal-exit@4.1.0
+│ │ │ │ │   │ ├─┬ wrap-ansi@6.2.0
+│ │ │ │ │   │ │ ├── ansi-styles@4.3.0 deduped
+│ │ │ │ │   │ │ ├─┬ string-width@4.2.3
+│ │ │ │ │   │ │ │ ├── emoji-regex@8.0.0
+│ │ │ │ │   │ │ │ ├── is-fullwidth-code-point@3.0.0
+│ │ │ │ │   │ │ │ └── strip-ansi@6.0.1 deduped
+│ │ │ │ │   │ │ └─┬ strip-ansi@6.0.1
+│ │ │ │ │   │ │   └── ansi-regex@5.0.1
+│ │ │ │ │   │ └── yoctocolors-cjs@2.1.3
+│ │ │ │ │   ├─┬ @inquirer/prompts@7.10.1
+│ │ │ │ │   │ ├─┬ @inquirer/checkbox@4.3.2
+│ │ │ │ │   │ │ ├── @inquirer/ansi@1.0.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/figures@1.0.15 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ │ └── yoctocolors-cjs@2.1.3 deduped
+│ │ │ │ │   │ ├─┬ @inquirer/confirm@5.1.21
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ ├─┬ @inquirer/editor@4.2.23
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├─┬ @inquirer/external-editor@1.0.3
+│ │ │ │ │   │ │ │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ │ │ ├── chardet@2.1.1
+│ │ │ │ │   │ │ │ └─┬ iconv-lite@0.7.2
+│ │ │ │ │   │ │ │   └── safer-buffer@2.1.2
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ ├─┬ @inquirer/expand@4.0.23
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ │ └── yoctocolors-cjs@2.1.3 deduped
+│ │ │ │ │   │ ├─┬ @inquirer/input@4.3.1
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ ├─┬ @inquirer/number@3.0.23
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ ├─┬ @inquirer/password@4.0.23
+│ │ │ │ │   │ │ ├── @inquirer/ansi@1.0.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ ├─┬ @inquirer/rawlist@4.1.11
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ │ └── yoctocolors-cjs@2.1.3 deduped
+│ │ │ │ │   │ ├─┬ @inquirer/search@3.2.2
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/figures@1.0.15 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ │ └── yoctocolors-cjs@2.1.3 deduped
+│ │ │ │ │   │ ├─┬ @inquirer/select@4.4.2
+│ │ │ │ │   │ │ ├── @inquirer/ansi@1.0.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/core@10.3.2 deduped
+│ │ │ │ │   │ │ ├── @inquirer/figures@1.0.15 deduped
+│ │ │ │ │   │ │ ├── @inquirer/type@3.0.10 deduped
+│ │ │ │ │   │ │ ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   │ │ └── yoctocolors-cjs@2.1.3 deduped
+│ │ │ │ │   │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   ├─┬ @inquirer/type@3.0.10
+│ │ │ │ │   │ └── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   ├── UNMET OPTIONAL DEPENDENCY @types/node@>=18
+│ │ │ │ │   ├── mute-stream@2.0.0
+│ │ │ │ │   ├── run-async@4.0.6
+│ │ │ │ │   └─┬ rxjs@7.8.2
+│ │ │ │ │     └── tslib@2.8.1
+│ │ │ │ ├── is-wds-st@1.0.0
+│ │ │ │ ├── is-wds-test-gg@1.0.0
+│ │ │ │ ├─┬ is-wds-test-kk-electron@1.0.0
+│ │ │ │ │ ├─┬ isomorphic-ws@5.0.0
+│ │ │ │ │ │ └── ws@8.19.0 deduped
+│ │ │ │ │ └─┬ ws@8.19.0
+│ │ │ │ │   ├── UNMET OPTIONAL DEPENDENCY bufferutil@^4.0.1
+│ │ │ │ │   └── UNMET OPTIONAL DEPENDENCY utf-8-validate@>=5.0.2
+│ │ │ │ ├── is-wds-test-kk-prac@1.0.0
+│ │ │ │ ├── is-wds-test-kk@1.0.6
+│ │ │ │ ├── is-wds-test001@1.0.0
+│ │ │ │ ├── is-wds-test3@1.0.0
+│ │ │ │ ├── is-wds-testpkg@1.0.0
+│ │ │ │ ├── is-wds-tolis@1.0.0
+│ │ │ │ ├── is-wds-trial@1.0.0
+│ │ │ │ ├── is-wds-tut@1.0.0
+│ │ │ │ ├── is-wds-tutorial-purposes@1.0.0
+│ │ │ │ ├── is-wds-up@1.0.0
+│ │ │ │ ├── is-wds-v2@1.0.0
+│ │ │ │ ├── is-wds-viktorgrom@1.0.0
+│ │ │ │ ├── is-wds-yummyfunnybunny@1.0.0
+│ │ │ │ ├── is-wds@1.0.0
+│ │ │ │ ├── is-wds111@1.0.0
+│ │ │ │ ├── is-wds123@1.0.0
+│ │ │ │ ├── is-wds1338@1.0.3
+│ │ │ │ ├── is-wds18498@1.0.0
+│ │ │ │ ├── is-wds22@1.0.0
+│ │ │ │ ├── is-wds421@1.0.3
+│ │ │ │ ├── is-wds5@1.0.1
+│ │ │ │ ├── is-wds9811@1.0.0
+│ │ │ │ ├── is-wdsa@1.0.0
+│ │ │ │ ├── is-wdsanew@1.0.0
+│ │ │ │ ├── is-wdsgha@1.0.0
+│ │ │ │ ├── is-wdsladsjlfasdfl@1.0.0
+│ │ │ │ ├── is-wdsq@1.0.0
+│ │ │ │ ├── is-wdsr@1.0.0
+│ │ │ │ ├── is-wdss@1.0.0
+│ │ │ │ ├── is-wdsshrutitest@1.0.0
+│ │ │ │ ├── is-wdssss@1.0.0
+│ │ │ │ ├─┬ is-wdsssx@1.0.2
+│ │ │ │ │ ├── is-wdsssx@1.0.2 deduped
+│ │ │ │ │ └─┬ nodemon@3.1.11
+│ │ │ │ │   ├─┬ chokidar@3.6.0
+│ │ │ │ │   │ ├─┬ anymatch@3.1.3
+│ │ │ │ │   │ │ ├── normalize-path@3.0.0 deduped
+│ │ │ │ │   │ │ └── picomatch@2.3.1
+│ │ │ │ │   │ ├─┬ braces@3.0.3
+│ │ │ │ │   │ │ └─┬ fill-range@7.1.1
+│ │ │ │ │   │ │   └─┬ to-regex-range@5.0.1
+│ │ │ │ │   │ │     └── is-number@7.0.0 deduped
+│ │ │ │ │   │ ├── UNMET OPTIONAL DEPENDENCY fsevents@~2.3.2
+│ │ │ │ │   │ ├─┬ glob-parent@5.1.2
+│ │ │ │ │   │ │ └── is-glob@4.0.3 deduped
+│ │ │ │ │   │ ├─┬ is-binary-path@2.1.0
+│ │ │ │ │   │ │ └── binary-extensions@2.3.0
+│ │ │ │ │   │ ├─┬ is-glob@4.0.3
+│ │ │ │ │   │ │ └── is-extglob@2.1.1
+│ │ │ │ │   │ ├── normalize-path@3.0.0
+│ │ │ │ │   │ └─┬ readdirp@3.6.0
+│ │ │ │ │   │   └── picomatch@2.3.1 deduped
+│ │ │ │ │   ├─┬ debug@4.4.3
+│ │ │ │ │   │ └── ms@2.1.3
+│ │ │ │ │   ├── ignore-by-default@1.0.1
+│ │ │ │ │   ├─┬ minimatch@3.1.2
+│ │ │ │ │   │ └─┬ brace-expansion@1.1.12
+│ │ │ │ │   │   ├── balanced-match@1.0.2
+│ │ │ │ │   │   └── concat-map@0.0.1
+│ │ │ │ │   ├── pstree.remy@1.1.8
+│ │ │ │ │   ├── semver@7.7.3
+│ │ │ │ │   ├─┬ simple-update-notifier@2.0.0
+│ │ │ │ │   │ └── semver@7.7.3 deduped
+│ │ │ │ │   ├─┬ supports-color@5.5.0
+│ │ │ │ │   │ └── has-flag@3.0.0
+│ │ │ │ │   ├── touch@3.1.1
+│ │ │ │ │   └── undefsafe@2.0.5
+│ │ │ │ ├── is-wdstest1@1.0.0
+│ │ │ │ ├── is-wdsv9@1.0.0
+│ │ │ │ ├── iswds-istring-random@1.0.0
+│ │ │ │ ├── iswds-string-random@1.0.0
+│ │ │ │ ├── jblake-is-wds@1.0.0
+│ │ │ │ ├── learnis-wds@1.0.0
+│ │ │ │ ├── maryam-is-wds@1.0.0
+│ │ │ │ ├── mm-is-wds@1.0.0
+│ │ │ │ ├── modi-is-wds@1.0.0
+│ │ │ │ ├── saed-is-wds@1.0.0
+│ │ │ │ ├── skv-is-wds@1.0.6
+│ │ │ │ ├── top10-234-is-wds@1.0.0
+│ │ │ │ ├── willw-is-wds@1.0.0
+│ │ │ │ └── ysh-is-wds@1.0.0
+│ │ │ ├─┬ @uppercase-letters/a@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/b@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/c@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/d@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/e@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/f@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/g@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/h@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/i@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/j@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/k@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/l@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/m@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/n@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/o@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/p@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/q@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/r@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/s@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/t@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/u@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/v@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/w@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/x@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/y@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ @uppercase-letters/z@2.0.0
+│ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ ├── emoji-100@1.3.0
+│ │ │ ├── emoji-1234@1.3.0
+│ │ │ ├── emoji-abcd@1.3.0
+│ │ │ ├── emoji-airplane-departure@1.3.0
+│ │ │ ├── emoji-alembic@1.3.0
+│ │ │ ├── emoji-ant@1.3.0
+│ │ │ ├── emoji-apple@1.3.0
+│ │ │ ├── emoji-articulated-lorry@1.3.0
+│ │ │ ├── emoji-bar-chart@1.3.0
+│ │ │ ├── emoji-basketball@1.3.0
+│ │ │ ├── emoji-bath@1.3.0
+│ │ │ ├── emoji-blue-book@1.3.0
+│ │ │ ├── emoji-bookmark-tabs@1.3.0
+│ │ │ ├── emoji-bread@1.3.0
+│ │ │ ├── emoji-bulb@1.3.0
+│ │ │ ├── emoji-camping@1.3.0
+│ │ │ ├── emoji-candle@1.3.0
+│ │ │ ├── emoji-car@1.3.0
+│ │ │ ├── emoji-card-index-dividers@1.3.0
+│ │ │ ├── emoji-cat@1.3.0
+│ │ │ ├── emoji-cd@1.3.0
+│ │ │ ├── emoji-champagne@1.3.0
+│ │ │ ├── emoji-checkered-flag@1.3.0
+│ │ │ ├── emoji-cherry-blossom@1.3.0
+│ │ │ ├── emoji-city-sunrise@1.3.0
+│ │ │ ├── emoji-cityscape@1.3.0
+│ │ │ ├── emoji-clapper@1.3.0
+│ │ │ ├── emoji-clock1@1.3.0
+│ │ │ ├── emoji-clock10@1.3.0
+│ │ │ ├── emoji-clock12@1.3.0
+│ │ │ ├── emoji-clock3@1.3.0
+│ │ │ ├── emoji-clock330@1.3.0
+│ │ │ ├── emoji-clock530@1.3.0
+│ │ │ ├── emoji-clock6@1.3.0
+│ │ │ ├── emoji-clock630@1.3.0
+│ │ │ ├── emoji-clock830@1.3.0
+│ │ │ ├── emoji-clock9@1.3.0
+│ │ │ ├── emoji-cocktail@1.3.0
+│ │ │ ├── emoji-coffee@1.3.0
+│ │ │ ├── emoji-comet@1.3.0
+│ │ │ ├── emoji-compression@1.3.0
+│ │ │ ├── emoji-computer@1.3.0
+│ │ │ ├── emoji-construction@1.3.0
+│ │ │ ├── emoji-control-knobs@1.3.0
+│ │ │ ├── emoji-cop@1.3.0
+│ │ │ ├── emoji-copyright@1.3.0
+│ │ │ ├── emoji-crab@1.3.0
+│ │ │ ├── emoji-crescent-moon@1.3.0
+│ │ │ ├── emoji-crossed-flags@1.3.0
+│ │ │ ├── emoji-cry@1.3.0
+│ │ │ ├── emoji-crystal-ball@1.3.0
+│ │ │ ├── emoji-currency-exchange@1.3.0
+│ │ │ ├── emoji-dark-sunglasses@1.3.0
+│ │ │ ├── emoji-dart@1.3.0
+│ │ │ ├── emoji-de@1.3.0
+│ │ │ ├── emoji-department-store@1.3.0
+│ │ │ ├── emoji-door@1.3.0
+│ │ │ ├── emoji-doughnut@1.3.0
+│ │ │ ├── emoji-egg@1.3.0
+│ │ │ ├── emoji-eight-pointed-black-star@1.3.0
+│ │ │ ├── emoji-eight-spoked-asterisk@1.3.0
+│ │ │ ├── emoji-envelope-with-arrow@1.3.0
+│ │ │ ├── emoji-es@1.3.0
+│ │ │ ├── emoji-euro@1.3.0
+│ │ │ ├── emoji-eyeglasses@1.3.0
+│ │ │ ├── emoji-eyes@1.3.0
+│ │ │ ├── emoji-family@1.3.0
+│ │ │ ├── emoji-film-projector@1.3.0
+│ │ │ ├── emoji-fire-engine@1.3.0
+│ │ │ ├── emoji-fire@1.3.0
+│ │ │ ├── emoji-fireworks@1.3.0
+│ │ │ ├── emoji-fish@1.3.0
+│ │ │ ├── emoji-flag-ag@1.3.0
+│ │ │ ├── emoji-flag-am@1.3.0
+│ │ │ ├── emoji-flag-ax@1.3.0
+│ │ │ ├── emoji-flag-bz@1.3.0
+│ │ │ ├── emoji-flag-cm@1.3.0
+│ │ │ ├── emoji-flag-cx@1.3.0
+│ │ │ ├── emoji-flag-ee@1.3.0
+│ │ │ ├── emoji-flag-es@1.3.0
+│ │ │ ├── emoji-flag-ga@1.3.0
+│ │ │ ├── emoji-flag-gu@1.3.0
+│ │ │ ├── emoji-flag-je@1.3.0
+│ │ │ ├── emoji-flag-kh@1.3.0
+│ │ │ ├── emoji-flag-kn@1.3.0
+│ │ │ ├── emoji-flag-na@1.3.0
+│ │ │ ├── emoji-flag-nu@1.3.0
+│ │ │ ├── emoji-flag-pf@1.3.0
+│ │ │ ├── emoji-flag-pr@1.3.0
+│ │ │ ├── emoji-flag-pt@1.3.0
+│ │ │ ├── emoji-flag-sh@1.3.0
+│ │ │ ├── emoji-flag-so@1.3.0
+│ │ │ ├── emoji-flag-ss@1.3.0
+│ │ │ ├── emoji-flag-vu@1.3.0
+│ │ │ ├── emoji-flag-wf@1.3.0
+│ │ │ ├── emoji-flag-ws@1.3.0
+│ │ │ ├── emoji-fleur-de-lis@1.3.0
+│ │ │ ├── emoji-foggy@1.3.0
+│ │ │ ├── emoji-footprints@1.3.0
+│ │ │ ├── emoji-full-moon@1.3.0
+│ │ │ ├── emoji-funeral-urn@1.3.0
+│ │ │ ├── emoji-goat@1.3.0
+│ │ │ ├── emoji-golf@1.3.0
+│ │ │ ├── emoji-green-apple@1.3.0
+│ │ │ ├── emoji-gun@1.3.0
+│ │ │ ├── emoji-haircut@1.3.0
+│ │ │ ├── emoji-hamster@1.3.0
+│ │ │ ├── emoji-hash@1.3.0
+│ │ │ ├── emoji-headphones@1.3.0
+│ │ │ ├── emoji-heartbeat@1.3.0
+│ │ │ ├── emoji-hearts@1.3.0
+│ │ │ ├── emoji-heavy-check-mark@1.3.0
+│ │ │ ├── emoji-helicopter@1.3.0
+│ │ │ ├── emoji-herb@1.3.0
+│ │ │ ├── emoji-hocho@1.3.0
+│ │ │ ├── emoji-hotdog@1.3.0
+│ │ │ ├── emoji-hotel@1.3.0
+│ │ │ ├── emoji-hotsprings@1.3.0
+│ │ │ ├── emoji-house@1.3.0
+│ │ │ ├── emoji-inbox-tray@1.3.0
+│ │ │ ├── emoji-information-source@1.3.0
+│ │ │ ├── emoji-innocent@1.3.0
+│ │ │ ├── emoji-izakaya-lantern@1.3.0
+│ │ │ ├── emoji-japan@1.3.0
+│ │ │ ├── emoji-japanese-castle@1.3.0
+│ │ │ ├── emoji-joy@1.3.0
+│ │ │ ├── emoji-keyboard@1.3.0
+│ │ │ ├── emoji-keycap-star@1.3.0
+│ │ │ ├── emoji-kissing-heart@1.3.0
+│ │ │ ├── emoji-kissing@1.3.0
+│ │ │ ├── emoji-knife-fork-plate@1.3.0
+│ │ │ ├── emoji-koko@1.3.0
+│ │ │ ├── emoji-lantern@1.3.0
+│ │ │ ├── emoji-laughing@1.3.0
+│ │ │ ├── emoji-leaves@1.3.0
+│ │ │ ├── emoji-left-luggage@1.3.0
+│ │ │ ├── emoji-libra@1.3.0
+│ │ │ ├── emoji-lightning@1.3.0
+│ │ │ ├── emoji-lollipop@1.3.0
+│ │ │ ├── emoji-love-letter@1.3.0
+│ │ │ ├── emoji-lower-left-ballpoint-pen@1.3.0
+│ │ │ ├── emoji-mag@1.3.0
+│ │ │ ├── emoji-mahjong@1.3.0
+│ │ │ ├── emoji-man-and-woman-holding-hands@1.3.0
+│ │ │ ├── emoji-man-kiss-man@1.3.0
+│ │ │ ├── emoji-man-man-boy-boy@1.3.0
+│ │ │ ├── emoji-man-with-turban@1.3.0
+│ │ │ ├── emoji-man-woman-boy@1.3.0
+│ │ │ ├── emoji-man-woman-girl-boy@1.3.0
+│ │ │ ├── emoji-man-woman-girl@1.3.0
+│ │ │ ├── emoji-mantelpiece-clock@1.3.0
+│ │ │ ├── emoji-microphone@1.3.0
+│ │ │ ├── emoji-middle-finger@1.3.0
+│ │ │ ├── emoji-milky-way@1.3.0
+│ │ │ ├── emoji-money-mouth-face@1.3.0
+│ │ │ ├── emoji-monkey-face@1.3.0
+│ │ │ ├── emoji-mostly-sunny@1.3.0
+│ │ │ ├── emoji-mount-fuji@1.3.0
+│ │ │ ├── emoji-mountain@1.3.0
+│ │ │ ├── emoji-mouse2@1.3.0
+│ │ │ ├── emoji-mushroom@1.3.0
+│ │ │ ├── emoji-name-badge@1.3.0
+│ │ │ ├── emoji-non-potable-water@1.3.0
+│ │ │ ├── emoji-nose@1.3.0
+│ │ │ ├── emoji-o2@1.3.0
+│ │ │ ├── emoji-om-symbol@1.3.0
+│ │ │ ├── emoji-on@1.3.0
+│ │ │ ├── emoji-oncoming-taxi@1.3.0
+│ │ │ ├── emoji-one@1.3.0
+│ │ │ ├── emoji-outbox-tray@1.3.0
+│ │ │ ├── emoji-package@1.3.0
+│ │ │ ├── emoji-palm-tree@1.3.0
+│ │ │ ├── emoji-paperclip@1.3.0
+│ │ │ ├── emoji-parking@1.3.0
+│ │ │ ├── emoji-part-alternation-mark@1.3.0
+│ │ │ ├── emoji-passport-control@1.3.0
+│ │ │ ├── emoji-phone@1.3.0
+│ │ │ ├── emoji-pig-nose@1.3.0
+│ │ │ ├── emoji-pig@1.3.0
+│ │ │ ├── emoji-pig2@1.3.0
+│ │ │ ├── emoji-pill@1.3.0
+│ │ │ ├── emoji-police-car@1.3.0
+│ │ │ ├── emoji-poodle@1.3.0
+│ │ │ ├── emoji-poop@1.3.0
+│ │ │ ├── emoji-postal-horn@1.3.0
+│ │ │ ├── emoji-postbox@1.3.0
+│ │ │ ├── emoji-purse@1.3.0
+│ │ │ ├── emoji-rainbow@1.3.0
+│ │ │ ├── emoji-raised-hand@1.3.0
+│ │ │ ├── emoji-repeat-one@1.3.0
+│ │ │ ├── emoji-repeat@1.3.0
+│ │ │ ├── emoji-rice@1.3.0
+│ │ │ ├── emoji-ring@1.3.0
+│ │ │ ├── emoji-rooster@1.3.0
+│ │ │ ├── emoji-rose@1.3.0
+│ │ │ ├── emoji-rotating-light@1.3.0
+│ │ │ ├── emoji-running@1.3.0
+│ │ │ ├── emoji-satellite@1.3.0
+│ │ │ ├── emoji-saxophone@1.3.0
+│ │ │ ├── emoji-scorpion@1.3.0
+│ │ │ ├── emoji-scream@1.3.0
+│ │ │ ├── emoji-secret@1.3.0
+│ │ │ ├── emoji-shower@1.3.0
+│ │ │ ├── emoji-signal-strength@1.3.0
+│ │ │ ├── emoji-six@1.3.0
+│ │ │ ├── emoji-ski@1.3.0
+│ │ │ ├── emoji-small-red-triangle@1.3.0
+│ │ │ ├── emoji-smile-cat@1.3.0
+│ │ │ ├── emoji-smile@1.3.0
+│ │ │ ├── emoji-smirk-cat@1.3.0
+│ │ │ ├── emoji-space-invader@1.3.0
+│ │ │ ├── emoji-sparkle@1.3.0
+│ │ │ ├── emoji-sparkler@1.3.0
+│ │ │ ├── emoji-star-and-crescent@1.3.0
+│ │ │ ├── emoji-star-of-david@1.3.0
+│ │ │ ├── emoji-steam-locomotive@1.3.0
+│ │ │ ├── emoji-strawberry@1.3.0
+│ │ │ ├── emoji-sunflower@1.3.0
+│ │ │ ├── emoji-sunglasses@1.3.0
+│ │ │ ├── emoji-sushi@1.3.0
+│ │ │ ├── emoji-sweat-smile@1.3.0
+│ │ │ ├── emoji-sweat@1.3.0
+│ │ │ ├── emoji-synagogue@1.3.0
+│ │ │ ├── emoji-taxi@1.3.0
+│ │ │ ├── emoji-tea@1.3.0
+│ │ │ ├── emoji-thinking-face@1.3.0
+│ │ │ ├── emoji-three-button-mouse@1.3.0
+│ │ │ ├── emoji-tm@1.3.0
+│ │ │ ├── emoji-top@1.3.0
+│ │ │ ├── emoji-trackball@1.3.0
+│ │ │ ├── emoji-trolleybus@1.3.0
+│ │ │ ├── emoji-tulip@1.3.0
+│ │ │ ├── emoji-two-men-holding-hands@1.3.0
+│ │ │ ├── emoji-two@1.3.0
+│ │ │ ├── emoji-u6709@1.3.0
+│ │ │ ├── emoji-u7533@1.3.0
+│ │ │ ├── emoji-umbrella-on-ground@1.3.0
+│ │ │ ├── emoji-us@1.3.0
+│ │ │ ├── emoji-vhs@1.3.0
+│ │ │ ├── emoji-volcano@1.3.0
+│ │ │ ├── emoji-wedding@1.3.0
+│ │ │ ├── emoji-weight-lifter@1.3.0
+│ │ │ ├── emoji-whale@1.3.0
+│ │ │ ├── emoji-white-flower@1.3.0
+│ │ │ ├── emoji-white-medium-square@1.3.0
+│ │ │ ├── emoji-white-square-button@1.3.0
+│ │ │ ├── emoji-woman-woman-girl-boy@1.3.0
+│ │ │ ├── emoji-world-map@1.3.0
+│ │ │ ├── emoji-zero@1.3.0
+│ │ │ ├── empty-string@1.1.1 deduped
+│ │ │ ├── eq-strings@2.0.1
+│ │ │ ├── general-concat@1.0.0 deduped
+│ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ ├─┬ immediate-error@11.0.1
+│ │ │ │ ├── @npm/mystery-function@npm:eval-intrinsic-ai@1.0.0 deduped
+│ │ │ │ ├── @positive-numbers/eight@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/eleven@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/five@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/four@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/nine@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/one@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/seven@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/six@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/three@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/two@3.0.0 deduped
+│ │ │ │ ├── @positive-numbers/zero@5.0.0
+│ │ │ │ ├── @rightpad/concat@1.0.0 deduped
+│ │ │ │ ├─┬ @uppercase-letters/e@3.0.0
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├─┬ @uppercase-letters/o@3.0.0
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├─┬ @uppercase-letters/r@3.0.0
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├── as-array@2.0.0 deduped
+│ │ │ │ ├── attempt-statement@1.2.1 deduped
+│ │ │ │ ├── bail@1.0.5 deduped
+│ │ │ │ ├── basic-functions@1.0.6 deduped
+│ │ │ │ ├── construct-new@2.0.4 deduped
+│ │ │ │ ├── deep-freeze-node3@1.1.0 deduped
+│ │ │ │ ├── delay@5.0.0 deduped
+│ │ │ │ ├── es-error-intrinsics@1.0.1 deduped
+│ │ │ │ ├── es-intrinsic-cache@1.0.4 deduped
+│ │ │ │ ├── false-value@2.0.6 deduped
+│ │ │ │ ├── fizzbuzz-enterprise@1.0.0 deduped
+│ │ │ │ ├── function-bind@1.1.2 deduped
+│ │ │ │ ├── is-@1.0.0 deduped
+│ │ │ │ ├── is-not-integer@1.0.2 deduped
+│ │ │ │ ├── jsfruit@1.1.0 deduped
+│ │ │ │ ├── libperson@1.0.0 deduped
+│ │ │ │ ├── libvegetable@1.0.0 deduped
+│ │ │ │ ├── n0p3-es2015-cjs@1.0.1 deduped
+│ │ │ │ ├── node-call.then@1.0.0 deduped
+│ │ │ │ ├── qc-core@0.0.0 deduped
+│ │ │ │ ├── repeating@2.0.1 deduped
+│ │ │ │ ├── simple-lru-cache@0.0.2 deduped
+│ │ │ │ ├── true-value@2.0.5 deduped
+│ │ │ │ └── uncurry-x@1.0.1 deduped
+│ │ │ ├── space-string@1.0.0
+│ │ │ ├── string-buzz@1.0.0 deduped
+│ │ │ ├─┬ string-creashaks-organzine@1.0.0
+│ │ │ │ ├── general-concat@1.0.0 deduped
+│ │ │ │ ├── space-string@1.0.0 deduped
+│ │ │ │ ├── string-creashaks@1.0.0 deduped
+│ │ │ │ └── string-organzine@1.0.0 deduped
+│ │ │ ├─┬ string-creashaks@1.0.0
+│ │ │ │ ├── concatenater@0.0.5
+│ │ │ │ ├── the-letter-a@1.0.0
+│ │ │ │ ├── the-letter-c@1.0.0
+│ │ │ │ ├── the-letter-e@1.0.0
+│ │ │ │ ├── the-letter-h@1.0.0
+│ │ │ │ ├── the-letter-k@1.0.0
+│ │ │ │ ├── the-letter-r@1.0.0
+│ │ │ │ └── the-letter-s@1.0.0
+│ │ │ ├── string-fizz@1.0.0 deduped
+│ │ │ ├─┬ string-fizzbuzz@1.0.0
+│ │ │ │ ├── general-concat@1.0.0 deduped
+│ │ │ │ ├── string-buzz@1.0.0 deduped
+│ │ │ │ └── string-fizz@1.0.0 deduped
+│ │ │ ├─┬ string-organzine@1.0.0
+│ │ │ │ ├── concatenater@0.0.5 deduped
+│ │ │ │ ├── letter-i@1.0.0 deduped
+│ │ │ │ ├── letter-z@1.0.0 deduped
+│ │ │ │ ├── the-letter-a@1.0.0 deduped
+│ │ │ │ ├── the-letter-e@1.0.0 deduped
+│ │ │ │ ├── the-letter-g@1.0.0
+│ │ │ │ ├── the-letter-n@1.0.0
+│ │ │ │ ├── the-letter-o@1.0.0
+│ │ │ │ └── the-letter-r@1.0.0 deduped
+│ │ │ └─┬ string.prototype.split@1.0.9
+│ │ │   ├── call-bind@1.0.8 deduped
+│ │ │   ├── define-properties@1.2.1 deduped
+│ │ │   ├── es-abstract@1.24.1 deduped
+│ │ │   ├── es-object-atoms@1.1.1 deduped
+│ │ │   ├── get-intrinsic@1.3.1 deduped
+│ │ │   ├─┬ is-regex@1.2.1
+│ │ │   │ ├── call-bound@1.0.4 deduped
+│ │ │   │ ├── gopd@1.2.0 deduped
+│ │ │   │ ├── has-tostringtag@1.0.2 deduped
+│ │ │   │ └── hasown@2.0.2 deduped
+│ │ │   └─┬ regexp.prototype.flags@1.5.4
+│ │ │     ├── call-bind@1.0.8 deduped
+│ │ │     ├── define-properties@1.2.1 deduped
+│ │ │     ├── es-errors@1.3.0 deduped
+│ │ │     ├── get-proto@1.0.1 deduped
+│ │ │     ├── gopd@1.2.0 deduped
+│ │ │     └─┬ set-function-name@2.0.2
+│ │ │       ├── define-data-property@1.1.4 deduped
+│ │ │       ├── es-errors@1.3.0 deduped
+│ │ │       ├── functions-have-names@1.2.3 deduped
+│ │ │       └── has-property-descriptors@1.0.2 deduped
+│ │ ├─┬ @is-(unknown)/is-finite@1.0.0
+│ │ │ ├─┬ @is-(unknown)/is-nan@1.0.0
+│ │ │ │ └─┬ has-no-self-equality@0.0.2
+│ │ │ │   └── has-self-equality@0.0.2
+│ │ │ ├─┬ @is-(unknown)/is-number@1.0.0
+│ │ │ │ └── @extremejs/utils@1.0.0-beta.22 deduped
+│ │ │ ├─┬ array-includes@3.1.9
+│ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ ├── es-abstract@1.24.1 deduped
+│ │ │ │ ├── es-object-atoms@1.1.1 deduped
+│ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├── is-string@1.1.1 deduped
+│ │ │ │ └── math-intrinsics@1.1.0 deduped
+│ │ │ ├── infinities@1.0.1 deduped
+│ │ │ ├── map-values@1.0.1
+│ │ │ └─┬ object.values@1.2.1
+│ │ │   ├── call-bind@1.0.8 deduped
+│ │ │   ├── call-bound@1.0.4 deduped
+│ │ │   ├── define-properties@1.2.1 deduped
+│ │ │   └── es-object-atoms@1.1.1 deduped
+│ │ ├─┬ @is-(unknown)/is-string@1.0.0
+│ │ │ └── @extremejs/utils@1.0.0-beta.22 deduped
+│ │ ├── @stdlib/utils-identity-function@0.2.2
+│ │ ├── false-value@2.0.6 deduped
+│ │ ├── identity-function@1.0.0
+│ │ ├─┬ is-useless@1.3.4
+│ │ │ ├── colors@1.4.0
+│ │ │ ├── empty-string@1.1.1 deduped
+│ │ │ ├── logtoconsole@1.0.7 deduped
+│ │ │ └── returndotjs@1.0.0
+│ │ ├── lodash.identity@3.0.0
+│ │ └─┬ vretriever@1.1.4
+│ │   ├── array-map@0.0.1 deduped
+│ │   ├── const@1.0.0
+│ │   ├── is-useless@1.3.4 deduped
+│ │   ├── isarray@2.0.5 deduped
+│ │   ├── literally@1.0.0 deduped
+│ │   ├── lodash.constant@3.0.0
+│ │   ├── lodash.identity@3.0.0 deduped
+│ │   ├── lodash@4.17.21
+│ │   ├── underscore@1.13.7
+│ │   └─┬ vvalue@1.1.4
+│ │     ├── @is-(unknown)/is-finite@1.0.0 deduped
+│ │     ├─┬ @positive-numbers/zero@6.0.0
+│ │     │ └── @std262/libnumbers@1.0.0 deduped
+│ │     ├── es-logical-not-operator@1.0.0 deduped
+│ │     ├── false@0.0.4 deduped
+│ │     ├── get-intrinsic@1.3.1 deduped
+│ │     ├── jquery-basic-arithmetic-plugin@1.1.0 deduped
+│ │     ├── jquery@3.7.1 deduped
+│ │     ├── left-pad@1.3.0 deduped
+│ │     ├─┬ number-is-float@1.0.0
+│ │     │ └── is-finite@1.1.0 deduped
+│ │     ├── rightpad@1.0.1
+│ │     └── true-value@2.0.5 deduped
+│ ├─┬ @is-(unknown)/is-false@1.5.0
+│ │ └── false-value@2.0.6 deduped
+│ ├── @is-(unknown)/is-true@1.5.0 deduped
+│ ├── @rightpad/concat@1.0.0 deduped
+│ ├── array-filter@1.0.0
+│ ├── capitalize@2.0.4
+│ ├── false-value@2.0.6 deduped
+│ ├── functions-have-names@1.2.3
+│ ├─┬ literally@1.0.0
+│ │ └── desync@1.1.2
+│ ├─┬ to-str@1.0.0
+│ │ ├── is-function@1.0.2 deduped
+│ │ ├── is-nil@1.0.1 deduped
+│ │ ├── is-object@1.0.2
+│ │ └─┬ is-symbol@1.1.1
+│ │   ├── call-bound@1.0.4 deduped
+│ │   ├── has-symbols@1.1.0 deduped
+│ │   └─┬ safe-regex-test@1.1.0
+│ │     ├── call-bound@1.0.4 deduped
+│ │     ├── es-errors@1.3.0 deduped
+│ │     └── is-regex@1.2.1 deduped
+│ ├── true-value@2.0.5 deduped
+│ ├─┬ twice-call-wrapper@1.2.0
+│ │ ├─┬ array.prototype.flatmap@1.3.3
+│ │ │ ├─┬ call-bind@1.0.8
+│ │ │ │ ├── call-bind-apply-helpers@1.0.2 deduped
+│ │ │ │ ├── es-define-property@1.0.1 deduped
+│ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ └── set-function-length@1.2.2 deduped
+│ │ │ ├─┬ define-properties@1.2.1
+│ │ │ │ ├── define-data-property@1.1.4 deduped
+│ │ │ │ ├── has-property-descriptors@1.0.2 deduped
+│ │ │ │ └── object-keys@1.1.1
+│ │ │ ├─┬ es-abstract@1.24.1
+│ │ │ │ ├─┬ array-buffer-byte-length@1.0.2
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ └── is-array-buffer@3.0.5 deduped
+│ │ │ │ ├─┬ arraybuffer.prototype.slice@1.0.4
+│ │ │ │ │ ├── array-buffer-byte-length@1.0.2 deduped
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ ├── es-abstract@1.24.1 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │ └── is-array-buffer@3.0.5 deduped
+│ │ │ │ ├─┬ available-typed-arrays@1.0.7
+│ │ │ │ │ └── possible-typed-array-names@1.1.0
+│ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ ├─┬ data-view-buffer@1.0.2
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── is-data-view@1.0.2 deduped
+│ │ │ │ ├─┬ data-view-byte-length@1.0.2
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── is-data-view@1.0.2 deduped
+│ │ │ │ ├─┬ data-view-byte-offset@1.0.1
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── is-data-view@1.0.2 deduped
+│ │ │ │ ├── es-define-property@1.0.1 deduped
+│ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ ├── es-object-atoms@1.1.1 deduped
+│ │ │ │ ├─┬ es-set-tostringtag@2.1.0
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │ ├── has-tostringtag@1.0.2 deduped
+│ │ │ │ │ └── hasown@2.0.2 deduped
+│ │ │ │ ├─┬ es-to-primitive@1.3.0
+│ │ │ │ │ ├── is-callable@1.2.7 deduped
+│ │ │ │ │ ├─┬ is-date-object@1.1.0
+│ │ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ │ └── has-tostringtag@1.0.2 deduped
+│ │ │ │ │ └── is-symbol@1.1.1 deduped
+│ │ │ │ ├─┬ function.prototype.name@1.1.8
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ ├── functions-have-names@1.2.3 deduped
+│ │ │ │ │ ├── hasown@2.0.2 deduped
+│ │ │ │ │ └── is-callable@1.2.7 deduped
+│ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├── get-proto@1.0.1 deduped
+│ │ │ │ ├─┬ get-symbol-description@1.1.0
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├─┬ globalthis@1.0.4
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ └── gopd@1.2.0 deduped
+│ │ │ │ ├── gopd@1.2.0 deduped
+│ │ │ │ ├── has-property-descriptors@1.0.2 deduped
+│ │ │ │ ├─┬ has-proto@1.2.0
+│ │ │ │ │ └── dunder-proto@1.0.1 deduped
+│ │ │ │ ├── has-symbols@1.1.0 deduped
+│ │ │ │ ├── hasown@2.0.2 deduped
+│ │ │ │ ├─┬ internal-slot@1.1.0
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ ├── hasown@2.0.2 deduped
+│ │ │ │ │ └─┬ side-channel@1.1.0
+│ │ │ │ │   ├── es-errors@1.3.0 deduped
+│ │ │ │ │   ├── object-inspect@1.13.4 deduped
+│ │ │ │ │   ├─┬ side-channel-list@1.0.0
+│ │ │ │ │   │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │   │ └── object-inspect@1.13.4 deduped
+│ │ │ │ │   ├─┬ side-channel-map@1.0.1
+│ │ │ │ │   │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │   │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │   │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │   │ └── object-inspect@1.13.4 deduped
+│ │ │ │ │   └─┬ side-channel-weakmap@1.0.2
+│ │ │ │ │     ├── call-bound@1.0.4 deduped
+│ │ │ │ │     ├── es-errors@1.3.0 deduped
+│ │ │ │ │     ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │     ├── object-inspect@1.13.4 deduped
+│ │ │ │ │     └── side-channel-map@1.0.1 deduped
+│ │ │ │ ├─┬ is-array-buffer@3.0.5
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ └── get-intrinsic@1.3.1 deduped
+│ │ │ │ ├── is-callable@1.2.7
+│ │ │ │ ├─┬ is-data-view@1.0.2
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │ └── is-typed-array@1.1.15 deduped
+│ │ │ │ ├── is-negative-zero@2.0.3
+│ │ │ │ ├── is-regex@1.2.1 deduped
+│ │ │ │ ├── is-set@2.0.3
+│ │ │ │ ├─┬ is-shared-array-buffer@1.0.4
+│ │ │ │ │ └── call-bound@1.0.4 deduped
+│ │ │ │ ├── is-string@1.1.1 deduped
+│ │ │ │ ├─┬ is-typed-array@1.1.15
+│ │ │ │ │ └── which-typed-array@1.1.20 deduped
+│ │ │ │ ├─┬ is-weakref@1.1.1
+│ │ │ │ │ └── call-bound@1.0.4 deduped
+│ │ │ │ ├── math-intrinsics@1.1.0 deduped
+│ │ │ │ ├── object-inspect@1.13.4
+│ │ │ │ ├── object-keys@1.1.1 deduped
+│ │ │ │ ├─┬ object.assign@4.1.7
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ ├── es-object-atoms@1.1.1 deduped
+│ │ │ │ │ ├── has-symbols@1.1.0 deduped
+│ │ │ │ │ └── object-keys@1.1.1 deduped
+│ │ │ │ ├─┬ own-keys@1.0.1
+│ │ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │ ├── object-keys@1.1.1 deduped
+│ │ │ │ │ └── safe-push-apply@1.0.0 deduped
+│ │ │ │ ├── regexp.prototype.flags@1.5.4 deduped
+│ │ │ │ ├─┬ safe-array-concat@1.1.3
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │ ├── has-symbols@1.1.0 deduped
+│ │ │ │ │ └── isarray@2.0.5 deduped
+│ │ │ │ ├─┬ safe-push-apply@1.0.0
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── isarray@2.0.5 deduped
+│ │ │ │ ├── safe-regex-test@1.1.0 deduped
+│ │ │ │ ├─┬ set-proto@1.0.0
+│ │ │ │ │ ├── dunder-proto@1.0.1 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── es-object-atoms@1.1.1 deduped
+│ │ │ │ ├─┬ stop-iteration-iterator@1.1.0
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── internal-slot@1.1.0 deduped
+│ │ │ │ ├─┬ string.prototype.trim@1.2.10
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── define-data-property@1.1.4 deduped
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ ├── es-abstract@1.24.1 deduped
+│ │ │ │ │ ├── es-object-atoms@1.1.1 deduped
+│ │ │ │ │ └── has-property-descriptors@1.0.2 deduped
+│ │ │ │ ├─┬ string.prototype.trimend@1.0.9
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ └── es-object-atoms@1.1.1 deduped
+│ │ │ │ ├─┬ string.prototype.trimstart@1.0.8
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── define-properties@1.2.1 deduped
+│ │ │ │ │ └── es-object-atoms@1.1.1 deduped
+│ │ │ │ ├─┬ typed-array-buffer@1.0.3
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── es-errors@1.3.0 deduped
+│ │ │ │ │ └── is-typed-array@1.1.15 deduped
+│ │ │ │ ├─┬ typed-array-byte-length@1.0.3
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├─┬ for-each@0.3.5
+│ │ │ │ │ │ └── is-callable@1.2.7 deduped
+│ │ │ │ │ ├── gopd@1.2.0 deduped
+│ │ │ │ │ ├── has-proto@1.2.0 deduped
+│ │ │ │ │ └── is-typed-array@1.1.15 deduped
+│ │ │ │ ├─┬ typed-array-byte-offset@1.0.4
+│ │ │ │ │ ├── available-typed-arrays@1.0.7 deduped
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── for-each@0.3.5 deduped
+│ │ │ │ │ ├── gopd@1.2.0 deduped
+│ │ │ │ │ ├── has-proto@1.2.0 deduped
+│ │ │ │ │ ├── is-typed-array@1.1.15 deduped
+│ │ │ │ │ └─┬ reflect.getprototypeof@1.0.10
+│ │ │ │ │   ├── call-bind@1.0.8 deduped
+│ │ │ │ │   ├── define-properties@1.2.1 deduped
+│ │ │ │ │   ├── es-abstract@1.24.1 deduped
+│ │ │ │ │   ├── es-errors@1.3.0 deduped
+│ │ │ │ │   ├── es-object-atoms@1.1.1 deduped
+│ │ │ │ │   ├── get-intrinsic@1.3.1 deduped
+│ │ │ │ │   ├── get-proto@1.0.1 deduped
+│ │ │ │ │   └─┬ which-builtin-type@1.2.1
+│ │ │ │ │     ├── call-bound@1.0.4 deduped
+│ │ │ │ │     ├── function.prototype.name@1.1.8 deduped
+│ │ │ │ │     ├── has-tostringtag@1.0.2 deduped
+│ │ │ │ │     ├─┬ is-async-function@2.1.1
+│ │ │ │ │     │ ├── async-function@1.0.0 deduped
+│ │ │ │ │     │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │     │ ├── get-proto@1.0.1 deduped
+│ │ │ │ │     │ ├── has-tostringtag@1.0.2 deduped
+│ │ │ │ │     │ └── safe-regex-test@1.1.0 deduped
+│ │ │ │ │     ├── is-date-object@1.1.0 deduped
+│ │ │ │ │     ├─┬ is-finalizationregistry@1.1.1
+│ │ │ │ │     │ └── call-bound@1.0.4 deduped
+│ │ │ │ │     ├─┬ is-generator-function@1.1.2
+│ │ │ │ │     │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │     │ ├── generator-function@2.0.1 deduped
+│ │ │ │ │     │ ├── get-proto@1.0.1 deduped
+│ │ │ │ │     │ ├── has-tostringtag@1.0.2 deduped
+│ │ │ │ │     │ └── safe-regex-test@1.1.0 deduped
+│ │ │ │ │     ├── is-regex@1.2.1 deduped
+│ │ │ │ │     ├── is-weakref@1.1.1 deduped
+│ │ │ │ │     ├── isarray@2.0.5 deduped
+│ │ │ │ │     ├── which-boxed-primitive@1.1.1 deduped
+│ │ │ │ │     ├─┬ which-collection@1.0.2
+│ │ │ │ │     │ ├── is-map@2.0.3
+│ │ │ │ │     │ ├── is-set@2.0.3 deduped
+│ │ │ │ │     │ ├── is-weakmap@2.0.2
+│ │ │ │ │     │ └─┬ is-weakset@2.0.4
+│ │ │ │ │     │   ├── call-bound@1.0.4 deduped
+│ │ │ │ │     │   └── get-intrinsic@1.3.1 deduped
+│ │ │ │ │     └── which-typed-array@1.1.20 deduped
+│ │ │ │ ├─┬ typed-array-length@1.0.7
+│ │ │ │ │ ├── call-bind@1.0.8 deduped
+│ │ │ │ │ ├── for-each@0.3.5 deduped
+│ │ │ │ │ ├── gopd@1.2.0 deduped
+│ │ │ │ │ ├── is-typed-array@1.1.15 deduped
+│ │ │ │ │ ├── possible-typed-array-names@1.1.0 deduped
+│ │ │ │ │ └── reflect.getprototypeof@1.0.10 deduped
+│ │ │ │ ├─┬ unbox-primitive@1.1.0
+│ │ │ │ │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │ ├── has-bigints@1.1.0 deduped
+│ │ │ │ │ ├── has-symbols@1.1.0 deduped
+│ │ │ │ │ └─┬ which-boxed-primitive@1.1.1
+│ │ │ │ │   ├─┬ is-bigint@1.1.0
+│ │ │ │ │   │ └── has-bigints@1.1.0 deduped
+│ │ │ │ │   ├─┬ is-boolean-object@1.2.2
+│ │ │ │ │   │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │   │ └── has-tostringtag@1.0.2 deduped
+│ │ │ │ │   ├─┬ is-number-object@1.1.1
+│ │ │ │ │   │ ├── call-bound@1.0.4 deduped
+│ │ │ │ │   │ └── has-tostringtag@1.0.2 deduped
+│ │ │ │ │   ├── is-string@1.1.1 deduped
+│ │ │ │ │   └── is-symbol@1.1.1 deduped
+│ │ │ │ └─┬ which-typed-array@1.1.20
+│ │ │ │   ├── available-typed-arrays@1.0.7 deduped
+│ │ │ │   ├── call-bind@1.0.8 deduped
+│ │ │ │   ├── call-bound@1.0.4 deduped
+│ │ │ │   ├── for-each@0.3.5 deduped
+│ │ │ │   ├── get-proto@1.0.1 deduped
+│ │ │ │   ├── gopd@1.2.0 deduped
+│ │ │ │   └── has-tostringtag@1.0.2 deduped
+│ │ │ └─┬ es-shim-unscopables@1.1.0
+│ │ │   └── hasown@2.0.2 deduped
+│ │ └─┬ compose-function@3.0.3
+│ │   └── arity-n@1.0.4
+│ └── yanoop@1.0.0
+├─┬ lolite.sample@1.1.15
+│ ├─┬ @is-(unknown)/is-array@1.0.0
+│ │ ├── @extremejs/utils@1.0.0-beta.22
+│ │ ├── call-bound@1.0.4 deduped
+│ │ └─┬ extract-stringtag@1.0.1
+│ │   ├── @is-(unknown)/is-string@1.0.0 deduped
+│ │   └─┬ uncurried-intrinsics@1.0.3
+│ │     ├── es-intrinsic-cache@1.0.4 deduped
+│ │     └── uncurry-x@1.0.1 deduped
+│ ├── @is-(unknown)/is-false@1.5.0 deduped
+│ ├── @is-(unknown)/is-true@1.5.0 deduped
+│ ├── array-filter@1.0.0 deduped
+│ ├── array-sample@0.1.0
+│ ├── false-value@2.0.6 deduped
+│ ├── true-value@2.0.5 deduped
+│ └─┬ uncurry-x@1.0.1
+│   ├─┬ define-data-property@1.1.4
+│   │ ├── es-define-property@1.0.1 deduped
+│   │ ├── es-errors@1.3.0 deduped
+│   │ └── gopd@1.2.0 deduped
+│   ├── function.call-x@1.0.0
+│   └─┬ set-function-length@1.2.2
+│     ├── define-data-property@1.1.4 deduped
+│     ├── es-errors@1.3.0 deduped
+│     ├── function-bind@1.1.2 deduped
+│     ├── get-intrinsic@1.3.1 deduped
+│     ├── gopd@1.2.0 deduped
+│     └─┬ has-property-descriptors@1.0.2
+│       └── es-define-property@1.0.1 deduped
+└─┬ string-string@1.0.0
+  ├── empty-string@1.1.1
+  └─┬ es-typeof@1.0.0
+    ├── @extremejs/utils@1.0.0-beta.22 deduped
+    ├── call-bound@1.0.4 deduped
+    ├── es-object-atoms@1.1.1 deduped
+    ├── extract-stringtag@1.0.1 deduped
+    ├── has-bigints@1.1.0
+    ├── has-symbols@1.1.0 deduped
+    └── lodash.includes@4.3.0
+

@@ -1,10 +1,11 @@
-const sample = require("lolite.sample")
-const booleans = require("lolite.__private.arrayofallbooleans")
+const lolite = require("lolite-browser")
+const sample = lolite.sample
+const booleans = lolite.__private.arrayOfAllBooleans
 const map = require("array-map")
-const [trueValue, falseValue] = map(booleans, require("lolite.constant"))
+const [trueValue, falseValue] = map(booleans, lolite.constant)
 const isTrue = require("@falsejs/is-true-helper")
 const isFalse = require("is-false")
-const crash_program = require("lolite.__private.crash")
+const crash_program = lolite.__private.crash
 const {
   ObjectOrFunctionParemeterName,
 } = require("important-extremely-useful-classes")
